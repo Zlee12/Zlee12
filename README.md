@@ -1,7 +1,4 @@
-## Hi there 👋
-
-<!--
-**Zlee12/Zlee1### Hi, I'm Zlee 👋
+### Hi, I'm Zlee 👋
 
 🔐 Security · 🔌 Microcontrollers · 🛠️ DIY & hardware hacking
 
