@@ -1,100 +1,122 @@
 <div align="center">
 
-<p><sub>WOW PROFILE · ZLEE12 · LIVE</sub></p>
+<sub>ZLEE12 · LIVE</sub>
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=living-identity&label=Zlee12&v=wow-living-identity-1&mode=light" />
   <img src="https://www.gitskins.com/api/section/hero?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=living-identity&label=Zlee12&v=wow-living-identity-1&mode=dark" width="100%" alt="Zlee12 animated Living Identity portrait and ASCII name" />
 </picture>
-<p><strong>Backend or systems engineer</strong> · the public internet</p>
-<p>Security · Microcontrollers · DIY &amp; hardware hacking</p>
-<p><a href="https://github.com/zlee12">GitHub</a></p>
+
+### Threat Hunter · AI Red Team · Systems &amp; Security Engineer
+
+<p><sub>Security · Microcontrollers · DIY &amp; hardware hacking</sub></p>
+
+<a href="https://github.com/Zlee12"><img src="https://img.shields.io/badge/GitHub-0a0a0d?style=for-the-badge&logo=github&logoColor=ff5b5b&labelColor=0a0a0d" alt="GitHub" /></a>
+
 </div>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-<h2>Identity, with signal</h2>
+## Who I am
 
-<table width="100%" style="display:table;width:100%;table-layout:fixed;">
+<table width="100%" style="table-layout:fixed">
 <tr>
-<td width="62%" valign="top"><p>Security · Microcontrollers · DIY &amp; hardware hacking</p><p><strong>Focus:</strong> `Python` · `C` · `Shell`</p><p><sub>Thoughtful collaboration, ambitious products, and useful open source.</sub></p></td>
-<td width="38%" valign="top"><p><code>LIVE SIGNAL</code></p><p><strong>2</strong> repos<br /><strong>0</strong> stars<br /><strong>12</strong> contributions<br /><strong>2</strong> followers</p></td>
+<td width="62%" valign="top">
+<p>Threat hunting · AI red-teaming · hardware I can hold — prototyping anything from mouse firmware to a ClockworkPi uConsole radio rig.</p>
+<p><strong>Focus:</strong> <code>offense to defend</code> · <code>build-in-the-open</code> · <code>local-first</code></p>
+<blockquote><sub><em>"It's not your right to decide whether they live or die. They deserve a chance."</em> — Vash the Stampede<br/>
+<em>"Do nothing which is of no use."</em> — Miyamoto Musashi, <em>Dokkōdō</em></sub></blockquote>
+</td>
+<td width="38%" valign="top">
+<p><code>LIVE SIGNAL</code></p>
+<p>
+<img src="https://img.shields.io/github/followers/Zlee12?style=flat&label=followers&labelColor=0a0a0d&color=ff2a2a" alt="followers" /><br/>
+<img src="https://img.shields.io/badge/daily_driver-Arch%20%2F%20Hyprland-0a0a0d?style=flat&logo=archlinux&logoColor=ff5b5b&labelColor=0a0a0d&color=ff2a2a" alt="Arch / Hyprland" /><br/>
+<img src="https://img.shields.io/badge/mindset-offense_to_defend-0a0a0d?style=flat&labelColor=0a0a0d&color=ff2a2a" alt="offense to defend" />
+</p>
+</td>
 </tr>
 </table>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-<h2>What moves the work</h2>
+## What moves the work
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/highlights?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&items=Python%3A%3ACurrent%20focus%7CC%3A%3AIn%20the%20build%20queue%7CShell%3A%3AIn%20the%20build%20queue&variant=wow&v=wow-highlights-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/highlights?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&items=Python%3A%3ACurrent%20focus%7CC%3A%3AIn%20the%20build%20queue%7CShell%3A%3AIn%20the%20build%20queue&variant=wow&v=wow-highlights-1&mode=dark" width="100%" alt="Zlee12 animated profile highlights" />
-</picture>
+<p align="center">
+<img src="https://img.shields.io/badge/Threat_hunting-finding_what_hides_in_the_noise-0a0a0d?style=for-the-badge&labelColor=ff2a2a&color=0a0a0d" alt="Threat hunting" /><br/>
+<img src="https://img.shields.io/badge/AI_red--team-adversarial_LLM_security-0a0a0d?style=for-the-badge&labelColor=ff2a2a&color=0a0a0d" alt="AI red-team" /><br/>
+<img src="https://img.shields.io/badge/Hardware-prototyping,_firmware,_PCBs,_rigs-0a0a0d?style=for-the-badge&labelColor=ff2a2a&color=0a0a0d" alt="Hardware" />
+</p>
 
-<p align="center"><sub>Positioning is useful when the proof is close behind it.</sub></p>
-
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
-
-<h2>The tools behind the signal</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-stack-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stack?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-stack-1&mode=dark" width="100%" alt="Zlee12 animated technology stack" />
-</picture>
-
-<p align="center"><sub>Python · C · Shell · chosen for the work, not the trend</sub></p>
+<p align="center"><sub>Less talk, more proof.</sub></p>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-<h2>Built, shipped, shared</h2>
+## The stack
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&repos=zlee12%2Fm913ctl%2Czlee12%2FZlee12&variant=wow&v=wow-projects-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&repos=zlee12%2Fm913ctl%2Czlee12%2FZlee12&variant=wow&v=wow-projects-1&mode=dark" width="100%" alt="Zlee12 animated project constellation" />
-</picture>
+<p align="center">
+<img src="https://img.shields.io/badge/Python-0a0a0d?style=for-the-badge&logo=python&logoColor=ff5b5b&labelColor=0a0a0d" alt="Python" />
+<img src="https://img.shields.io/badge/Go-0a0a0d?style=for-the-badge&logo=go&logoColor=ff5b5b&labelColor=0a0a0d" alt="Go" />
+<img src="https://img.shields.io/badge/Bash-0a0a0d?style=for-the-badge&logo=gnubash&logoColor=ff5b5b&labelColor=0a0a0d" alt="Bash" />
+<img src="https://img.shields.io/badge/Docker-0a0a0d?style=for-the-badge&logo=docker&logoColor=ff5b5b&labelColor=0a0a0d" alt="Docker" />
+<br/>
+<img src="https://img.shields.io/badge/KVM_/_Proxmox-0a0a0d?style=for-the-badge&logo=proxmox&logoColor=ff5b5b&labelColor=0a0a0d" alt="KVM / Proxmox" />
+<img src="https://img.shields.io/badge/Arduino-0a0a0d?style=for-the-badge&logo=arduino&logoColor=ff5b5b&labelColor=0a0a0d" alt="Arduino" />
+<img src="https://img.shields.io/badge/Arch_Linux-0a0a0d?style=for-the-badge&logo=archlinux&logoColor=ff5b5b&labelColor=0a0a0d" alt="Arch Linux" />
+<img src="https://img.shields.io/badge/Hyprland-0a0a0d?style=for-the-badge&logo=wayland&logoColor=ff5b5b&labelColor=0a0a0d" alt="Hyprland" />
+</p>
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&repos=zlee12%2Fm913ctl%2Czlee12%2FZlee12&variant=wow-timeline&v=wow-timeline-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&repos=zlee12%2Fm913ctl%2Czlee12%2FZlee12&variant=wow-timeline&v=wow-timeline-1&mode=dark" width="100%" alt="Zlee12 animated project launch timeline" />
-</picture>
+<p align="center"><sub>Chosen for the work, not the trend.</sub></p>
+
+<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
+
+## Built, shipped, shared
 
 <table width="100%">
 <tr>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/Zlee12/m913ctl">m913ctl</a></strong></p><p>Configure a Redragon M913 gaming mouse on Linux — buttons, macros, DPI and lighting</p><p><sub>Python · ⭐ 0</sub></p></td>
-<td width="50%" valign="top"><p><strong><a href="https://github.com/Zlee12/Zlee12">Zlee12</a></strong></p><p>A selected project from this public body of work.</p><p><sub>Open source · ⭐ 0</sub></p></td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/Zlee12/m913ctl">m913ctl</a></strong></p>
+<p>Configure a Redragon M913 mouse on Linux — buttons, macros, DPI and lighting, written straight to onboard memory. CLI, TUI and a GTK4 app over one config. Built because the vendor only ships Windows.</p>
+<p><sub>Python · GTK4 · HID</sub></p>
+</td>
+<td width="50%" valign="top">
+<p><strong>Not everything is public</strong></p>
+<p>Security &amp; systems tooling, trading tools, multi-agent experiments — local-first, kept private for opsec. Public releases land here.</p>
+<p><sub>Open source when it's ready</sub></p>
+</td>
 </tr>
 </table>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-<h2>Momentum, made visible</h2>
+## Momentum, made visible
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-stats-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stats?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-stats-1&mode=dark" width="100%" alt="Zlee12 animated GitHub signal" />
-</picture>
+<p align="center">
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Zlee12&show_icons=true&hide_border=true&count_private=true&title_color=ff2a2a&icon_color=ff5b5b&text_color=c9c9d1&bg_color=0a0a0d" alt="GitHub stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zlee12&layout=compact&hide_border=true&title_color=ff2a2a&text_color=c9c9d1&bg_color=0a0a0d" alt="Top languages" />
+</p>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-<h2>The trail behind the work</h2>
+## The trail behind the work
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-heatmap-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/heatmap?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-heatmap-1&mode=dark" width="100%" alt="Zlee12 contribution energy field" />
-</picture>
+<p align="center">
+<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Zlee12&bg_color=0a0a0d&color=ff5b5b&line=ff2a2a&point=ffffff&area=true&area_color=7a0f0f&title_color=ff2a2a&hide_border=true" alt="Contribution graph" />
+</p>
 
-<p align="center"><sub>1 day current streak · 1 active days</sub></p>
+<p align="center"><sub><em>"The quieter you become, the more you are able to hear."</em> — Ram Dass</sub></p>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
 <div align="center">
-<p><sub>KEEP THE SIGNAL MOVING</sub></p>
-<h2>Make something worth noticing</h2>
-<p>I like working with people who care about craft, context, and shipping the useful version.</p>
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-social-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/social?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=wow&v=wow-social-1&mode=dark" width="100%" alt="Zlee12 contact links" />
-</picture>
-<p><a href="https://github.com/zlee12">GitHub</a></p>
-<p><sub>Zlee12 · Wow Profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
+
+<sub>LOVE &amp; PEACE — WITH A THREAT MODEL</sub>
+
+### Protect what lives.
+
+<p><em>"I wanted to save them both."</em> — Vash the Stampede</p>
+
+<a href="https://github.com/Zlee12"><img src="https://img.shields.io/badge/GitHub-0a0a0d?style=for-the-badge&logo=github&logoColor=ff5b5b&labelColor=0a0a0d" alt="GitHub" /></a>
+<a href="https://buymeacoffee.com/zlee12"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-0a0a0d?style=for-the-badge&logo=buymeacoffee&logoColor=ff5b5b&labelColor=0a0a0d" alt="Buy Me a Coffee" /></a>
+
 </div>
