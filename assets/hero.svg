@@ -1,0 +1,400 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" fill="none" role="img" aria-label="ZLEE12 — threat hunter, systems and security engineer">
+  <title>Zlee12 — living identity (red)</title>
+  <desc>Animated red ASCII portrait and name. REPOS 2 · STARS 0 · CONTRIBUTIONS 12 · FOLLOWERS 2</desc>
+  <defs>
+    <radialGradient id="halo" cx="30%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#ff2a2a" stop-opacity="0.18"/>
+      <stop offset="55%" stop-color="#7a0f0f" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#07070a" stop-opacity="0"/></radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb0b0"/><stop offset="50%" stop-color="#ff2f2f"/><stop offset="100%" stop-color="#e01414"/></linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2a2a" stop-opacity="0"/><stop offset="50%" stop-color="#ff2a2a"/><stop offset="100%" stop-color="#ff2a2a" stop-opacity="0"/></linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5.5"/></filter>
+    <clipPath id="scr"><rect width="1000" height="430" rx="18"/></clipPath>
+    <clipPath id="pan"><rect x="16" y="52" width="340" height="310" rx="12"/></clipPath>
+    <style>
+      :root{color-scheme:dark}
+      .mono{font-family:"SFMono-Regular","Consolas","Liberation Mono","Menlo",monospace}
+      text{dominant-baseline:middle}
+      @keyframes flick{0%,100%{opacity:1}93%{opacity:1}94%{opacity:.6}95%{opacity:1}97%{opacity:.8}98%{opacity:1}}
+      @keyframes pulse{0%,100%{opacity:.8}50%{opacity:1}}
+      @keyframes scan{0%{transform:translateY(-24px)}100%{transform:translateY(430px)}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+      @keyframes draw{0%{stroke-dashoffset:620}100%{stroke-dashoffset:0}}
+      .glyphs{animation:flick 6s steps(60) infinite}
+      .halo{animation:pulse 3.4s ease-in-out infinite}
+      .line{stroke-dasharray:620;animation:draw 2.2s ease-out forwards}
+      .cur{animation:blink 1.05s steps(1) infinite}
+      .scan{animation:scan 6s linear infinite}
+      @media (prefers-reduced-motion:reduce){.glyphs,.halo,.line,.cur,.scan{animation:none}.line{stroke-dashoffset:0}}
+    </style>
+  </defs>
+  <g clip-path="url(#scr)">
+    <rect width="1000" height="430" fill="#07070a"/>
+    <rect width="1000" height="430" fill="url(#halo)"/>
+    <g stroke="#ff2a2a" stroke-opacity="0.05">
+      <path d="M0 86H1000M0 172H1000M0 258H1000M0 344H1000"/>
+      <path d="M420 0V430M560 0V430M700 0V430M840 0V430"/></g>
+
+    <!-- portrait panel -->
+    <rect x="16" y="52" width="340" height="310" rx="12" fill="#09070a" stroke="#2a1016" stroke-width="1.5"/>
+    <g clip-path="url(#pan)" class="glyphs"><g transform="translate(39.0,60.0) scale(0.4884)"><g class="mono" font-size="10.50" xml:space="preserve">
+<text x="0" y="6.0"><tspan fill="#fe9595">@</tspan><tspan fill="#fc9090">@</tspan><tspan fill="#f38080">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#d04646">#</tspan><tspan fill="#e46464">%</tspan><tspan fill="#e26060">%</tspan><tspan fill="#cb3f3f">X</tspan><tspan fill="#d14848">#</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#d74f4f">#</tspan><tspan fill="#d64e4e">#</tspan><tspan fill="#ba2b2b">o</tspan><tspan fill="#b72828">o</tspan><tspan fill="#af2121">o</tspan><tspan fill="#a71a1a">*</tspan><tspan fill="#b62727">o</tspan><tspan fill="#a51818">*</tspan><tspan fill="#b22323">o</tspan><tspan fill="#ab1d1d">*</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#d24949">#</tspan><tspan fill="#e36262">%</tspan><tspan fill="#e26161">%</tspan><tspan fill="#ed7474">%</tspan><tspan fill="#f07878">%</tspan><tspan fill="#f98b8b">@</tspan><tspan fill="#df5c5c">#</tspan><tspan fill="#dc5858">#</tspan><tspan fill="#e96c6c">%</tspan><tspan fill="#b72828">o</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#b52626">o</tspan>            <tspan fill="#b22323">o</tspan><tspan fill="#b82929">o</tspan><tspan fill="#d14747">#</tspan><tspan fill="#ba2c2c">o</tspan><tspan fill="#d64e4e">#</tspan><tspan fill="#f88888">@</tspan><tspan fill="#fa8c8c">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#ef7777">%</tspan><tspan fill="#e76969">%</tspan><tspan fill="#f98a8a">@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@@@@@@@@</tspan><tspan fill="#f88888">@</tspan><tspan fill="#ef7777">%</tspan><tspan fill="#da5454">#</tspan><tspan fill="#da5555">#</tspan><tspan fill="#d85151">#</tspan><tspan fill="#d64e4e">#</tspan><tspan fill="#d24848">#</tspan><tspan fill="#c83c3c">X</tspan><tspan fill="#d04646">#</tspan><tspan fill="#db5757">#</tspan><tspan fill="#e36363">%</tspan><tspan fill="#f37f7f">@</tspan></text>
+<text x="0" y="12.9"><tspan fill="#fe9595">@@</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fa8d8d">@</tspan><tspan fill="#db5656">#</tspan><tspan fill="#ca3f3f">X</tspan><tspan fill="#f17c7c">%</tspan><tspan fill="#f27d7d">@</tspan><tspan fill="#ed7474">%</tspan><tspan fill="#dc5858">#</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#db5656">#</tspan><tspan fill="#d85151">#</tspan><tspan fill="#b52626">o</tspan><tspan fill="#af2020">o</tspan><tspan fill="#ae2020">o</tspan><tspan fill="#a51919">*</tspan><tspan fill="#b42525">o</tspan><tspan fill="#ae2020">o</tspan><tspan fill="#af2121">o</tspan><tspan fill="#a61919">*</tspan><tspan fill="#aa1c1c">*</tspan><tspan fill="#d75050">#</tspan><tspan fill="#dc5757">#</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#e46464">%</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#eb7171">%</tspan><tspan fill="#e36262">%</tspan><tspan fill="#e16060">%</tspan><tspan fill="#cf4444">#</tspan><tspan fill="#af2121">o</tspan><tspan fill="#980f0f">++</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#890808">+</tspan>           <tspan fill="#c33535">X</tspan><tspan fill="#ad1f1f">o</tspan><tspan fill="#d04545">#</tspan><tspan fill="#c93d3d">X</tspan><tspan fill="#c83c3c">X</tspan><tspan fill="#df5d5d">#</tspan><tspan fill="#ef7777">%</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#f58282">@</tspan><tspan fill="#f48181">@</tspan><tspan fill="#fe9595">@@@@@@@@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#e46464">%</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#d85151">#</tspan><tspan fill="#d75151">#</tspan><tspan fill="#db5656">#</tspan><tspan fill="#ce4444">#</tspan><tspan fill="#cb4040">X</tspan><tspan fill="#d74f4f">#</tspan><tspan fill="#d14747">#</tspan><tspan fill="#e56565">%</tspan><tspan fill="#f48080">@</tspan></text>
+<text x="0" y="19.9"><tspan fill="#fb8f8f">@</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#ee7676">%</tspan><tspan fill="#dc5858">#</tspan><tspan fill="#ca3e3e">X</tspan><tspan fill="#fa8c8c">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#f48181">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#df5d5d">#</tspan><tspan fill="#ca3e3e">X</tspan><tspan fill="#b12222">o</tspan><tspan fill="#b52727">o</tspan><tspan fill="#ad1f1f">o</tspan><tspan fill="#b82929">o</tspan><tspan fill="#af2020">o</tspan><tspan fill="#b92b2b">o</tspan><tspan fill="#ba2b2b">o</tspan><tspan fill="#b52727">o</tspan><tspan fill="#c33535">X</tspan><tspan fill="#c43737">X</tspan><tspan fill="#e05e5e">%</tspan><tspan fill="#ed7474">%</tspan><tspan fill="#fb8e8e">@</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#f68484">@</tspan><tspan fill="#de5a5a">#</tspan><tspan fill="#c13333">X</tspan><tspan fill="#ad1f1f">o</tspan><tspan fill="#920c0c">+</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#a81b1b">*</tspan> <tspan fill="#880707">+</tspan>          <tspan fill="#9c1212">**</tspan><tspan fill="#c33535">X</tspan><tspan fill="#cc4040">X</tspan><tspan fill="#da5555">#</tspan><tspan fill="#e36262">%</tspan><tspan fill="#fe9595">@@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#e26060">%</tspan><tspan fill="#e66767">%</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#fd9393">@@</tspan><tspan fill="#f78686">@</tspan><tspan fill="#ef7777">%</tspan><tspan fill="#d14848">#</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#cf4545">#</tspan><tspan fill="#cd4242">X</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#e76969">%</tspan><tspan fill="#e46565">%</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#e56666">%</tspan></text>
+<text x="0" y="26.9"><tspan fill="#fa8b8b">@</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#f68484">@</tspan><tspan fill="#dc5757">#</tspan><tspan fill="#de5a5a">#</tspan><tspan fill="#e56666">%</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#fb8d8d">@</tspan><tspan fill="#fa8d8d">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#dc5858">#</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#d44c4c">#</tspan><tspan fill="#cf4444">#</tspan><tspan fill="#bd2e2e">X</tspan><tspan fill="#ad1f1f">o</tspan><tspan fill="#b82929">o</tspan><tspan fill="#af2121">o</tspan><tspan fill="#b12222">o</tspan><tspan fill="#c83c3c">X</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#dd5858">#</tspan><tspan fill="#f68585">@</tspan><tspan fill="#fa8d8d">@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#e66767">%</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#b62727">o</tspan><tspan fill="#a51818">*</tspan><tspan fill="#8c0909">+</tspan><tspan fill="#8e0a0a">+</tspan> <tspan fill="#920c0c">+</tspan>           <tspan fill="#940d0d">+</tspan><tspan fill="#a31717">*</tspan><tspan fill="#cf4545">#</tspan><tspan fill="#e76a6a">%</tspan><tspan fill="#f17a7a">%</tspan><tspan fill="#fe9595">@@@@@@@@</tspan><tspan fill="#fa8d8d">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fc9090">@</tspan><tspan fill="#d74f4f">#</tspan><tspan fill="#e15f5f">%</tspan><tspan fill="#f48181">@</tspan><tspan fill="#fe9595">@@@@@@@</tspan><tspan fill="#f88888">@</tspan><tspan fill="#cd4242">X</tspan><tspan fill="#d44c4c">#</tspan><tspan fill="#c83c3c">XX</tspan><tspan fill="#db5555">#</tspan><tspan fill="#e66767">%</tspan><tspan fill="#ed7373">%</tspan><tspan fill="#f68585">@</tspan><tspan fill="#fe9595">@</tspan></text>
+<text x="0" y="34.0"><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#e46464">%</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#df5c5c">#</tspan><tspan fill="#dc5858">#</tspan><tspan fill="#ed7474">%</tspan><tspan fill="#fe9595">@@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#f88888">@</tspan><tspan fill="#ee7676">%</tspan><tspan fill="#e86a6a">%</tspan><tspan fill="#e05e5e">%%</tspan><tspan fill="#dc5858">#</tspan><tspan fill="#bd2f2f">X</tspan><tspan fill="#d34a4a">##</tspan><tspan fill="#e56666">%</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fa8d8d">@</tspan><tspan fill="#f07878">%</tspan><tspan fill="#e36363">%</tspan><tspan fill="#dd5959">#</tspan><tspan fill="#dc5757">#</tspan><tspan fill="#c63939">X</tspan><tspan fill="#b02121">o</tspan><tspan fill="#890808">+</tspan>            <tspan fill="#880707">+</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#b72828">o</tspan><tspan fill="#d04646">#</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#f98a8a">@</tspan><tspan fill="#fe9595">@@@@@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#f98a8a">@</tspan><tspan fill="#ef7878">%</tspan><tspan fill="#e26060">%</tspan><tspan fill="#e05d5d">#</tspan><tspan fill="#e46464">%</tspan><tspan fill="#ee7676">%</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#d75050">#</tspan><tspan fill="#e66767">%</tspan><tspan fill="#d75151">#</tspan><tspan fill="#de5a5a">#</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#f48080">@</tspan><tspan fill="#f98b8b">@</tspan><tspan fill="#fe9595">@@</tspan></text>
+<text x="0" y="41.0"><tspan fill="#fe9595">@@@@@@@</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#f07a7a">%</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#e76969">%</tspan><tspan fill="#d44c4c">#</tspan><tspan fill="#f07979">%</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#f78787">@</tspan><tspan fill="#e05e5e">%</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fc9090">@</tspan><tspan fill="#f68484">@</tspan><tspan fill="#f78787">@</tspan><tspan fill="#e36262">%</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#dd5959">#</tspan><tspan fill="#b82929">o</tspan><tspan fill="#8e0a0a">+</tspan>           <tspan fill="#880707">+</tspan><tspan fill="#a61919">*</tspan><tspan fill="#930c0c">+</tspan><tspan fill="#ce4444">#</tspan><tspan fill="#e56666">%</tspan><tspan fill="#e36363">%</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#f88888">@</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#f68585">@</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#df5c5c">#</tspan><tspan fill="#d14848">#</tspan><tspan fill="#dd5858">#</tspan><tspan fill="#eb7070">%%</tspan><tspan fill="#e86b6b">%</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#fb8e8e">@</tspan><tspan fill="#e66868">%</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#e56565">%</tspan><tspan fill="#ea6e6e">%</tspan><tspan fill="#d85151">#</tspan><tspan fill="#e66868">%</tspan><tspan fill="#f68484">@</tspan><tspan fill="#f88888">@</tspan><tspan fill="#fe9595">@@@</tspan></text>
+<text x="0" y="48.0"><tspan fill="#fe9595">@@@@@@@@</tspan><tspan fill="#fb8e8e">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#e76969">%</tspan><tspan fill="#fa8c8c">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fe9494">@@@</tspan><tspan fill="#fe9595">@@@@@@@@</tspan><tspan fill="#f37e7e">@</tspan><tspan fill="#d85151">#</tspan><tspan fill="#ac1e1e">o</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#aa1c1c">*</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#880707">+</tspan>       <tspan fill="#9a1010">*</tspan><tspan fill="#a41717">*</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#ac1e1e">o</tspan><tspan fill="#d34a4a">#</tspan><tspan fill="#de5a5a">#</tspan><tspan fill="#db5656">#</tspan><tspan fill="#f07979">%</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#ed7474">%</tspan><tspan fill="#e56666">%</tspan><tspan fill="#df5c5c">#</tspan><tspan fill="#e05e5e">%</tspan><tspan fill="#e46565">%</tspan><tspan fill="#e66767">%</tspan><tspan fill="#ef7777">%</tspan><tspan fill="#f58383">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#ec7272">%</tspan><tspan fill="#e96c6c">%</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#f68585">@</tspan><tspan fill="#f07878">%</tspan><tspan fill="#f58282">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan></text>
+<text x="0" y="55.0"><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#f98a8a">@</tspan><tspan fill="#d54d4d">#</tspan><tspan fill="#c93d3d">X</tspan><tspan fill="#ba2b2b">o</tspan><tspan fill="#c03232">X</tspan><tspan fill="#d24848">#</tspan><tspan fill="#af2121">o</tspan><tspan fill="#ad1f1f">o</tspan><tspan fill="#9a1010">*</tspan><tspan fill="#a51818">*</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#a01414">*</tspan><tspan fill="#960e0e">+</tspan><tspan fill="#9b1111">*</tspan><tspan fill="#9d1313">*</tspan><tspan fill="#c33535">X</tspan><tspan fill="#b02121">o</tspan><tspan fill="#d64e4e">#</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#d85151">#</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#eb7070">%</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#f37e7e">@</tspan><tspan fill="#e76969">%</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#da5555">#</tspan><tspan fill="#dd5858">#</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#f58383">@</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#f88989">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#f07a7a">%</tspan><tspan fill="#fd9191">@</tspan><tspan fill="#f68484">@</tspan><tspan fill="#fe9595">@@</tspan></text>
+<text x="0" y="62.0"><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@@@@@@</tspan><tspan fill="#fa8d8d">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#ec7373">%</tspan><tspan fill="#e76969">%%</tspan><tspan fill="#dc5858">#</tspan><tspan fill="#cf4545">#</tspan><tspan fill="#cc4141">X</tspan><tspan fill="#c13434">X</tspan><tspan fill="#d14747">#</tspan><tspan fill="#d24848">#</tspan><tspan fill="#bf3131">X</tspan><tspan fill="#b82929">o</tspan><tspan fill="#cd4242">X</tspan><tspan fill="#cf4545">#</tspan><tspan fill="#b82929">o</tspan><tspan fill="#c13434">X</tspan><tspan fill="#e56666">%</tspan><tspan fill="#eb7070">%</tspan><tspan fill="#e86b6b">%</tspan><tspan fill="#f48181">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#f58383">@</tspan><tspan fill="#ee7575">%</tspan><tspan fill="#e16060">%</tspan><tspan fill="#e05e5e">%</tspan><tspan fill="#e96c6c">%</tspan><tspan fill="#df5c5c">#</tspan><tspan fill="#db5656">#</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#f88989">@</tspan><tspan fill="#e76969">%</tspan><tspan fill="#f78787">@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@@@</tspan></text>
+<text x="0" y="69.0"><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#e46565">%</tspan><tspan fill="#f48080">@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#f17c7c">%</tspan><tspan fill="#de5a5a">#</tspan><tspan fill="#cf4545">##</tspan><tspan fill="#f17a7a">%</tspan><tspan fill="#ee7676">%</tspan><tspan fill="#d75050">#</tspan><tspan fill="#de5a5a">#</tspan><tspan fill="#cc4040">X</tspan><tspan fill="#bc2e2e">o</tspan><tspan fill="#d54d4d">#</tspan><tspan fill="#f37e7e">@</tspan><tspan fill="#f38080">@</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#f38080">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#ef7878">%</tspan><tspan fill="#cf4545">#</tspan><tspan fill="#e46464">%</tspan><tspan fill="#d75050">#</tspan><tspan fill="#cc4141">X</tspan><tspan fill="#d75050">#</tspan><tspan fill="#fe9595">@@@</tspan><tspan fill="#ea6e6e">%</tspan><tspan fill="#fe9595">@@@@@@@</tspan><tspan fill="#e76969">%</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#fa8d8d">@</tspan><tspan fill="#fe9595">@@@@</tspan></text>
+<text x="0" y="76.0"><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#df5c5c">#</tspan><tspan fill="#ef7777">%</tspan><tspan fill="#f58383">@</tspan><tspan fill="#f17a7a">%</tspan><tspan fill="#d64f4f">#</tspan><tspan fill="#dc5757">#</tspan><tspan fill="#ef7777">%</tspan><tspan fill="#ec7373">%</tspan><tspan fill="#e26262">%</tspan><tspan fill="#f17a7a">%</tspan><tspan fill="#e66767">%</tspan><tspan fill="#f58282">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@</tspan><tspan fill="#ee7676">%</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#e66767">%</tspan><tspan fill="#ce4444">#</tspan><tspan fill="#d64e4e">#</tspan><tspan fill="#bf3131">X</tspan><tspan fill="#ef7878">%</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fb8f8f">@</tspan><tspan fill="#fe9595">@@@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#ed7474">%</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#f98b8b">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#f98a8a">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@</tspan></text>
+<text x="0" y="83.0"><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#ee7676">%</tspan><tspan fill="#e76a6a">%</tspan><tspan fill="#dd5959">#</tspan><tspan fill="#f17c7c">%</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fb8e8e">@</tspan><tspan fill="#f58282">@</tspan><tspan fill="#f78787">@</tspan><tspan fill="#fc9090">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@@@@@@@</tspan><tspan fill="#f88888">@</tspan><tspan fill="#ed7373">%</tspan><tspan fill="#fd9292">@@</tspan><tspan fill="#f37e7e">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#e56565">%</tspan><tspan fill="#fa8c8c">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fd9292">@</tspan><tspan fill="#fe9595">@@@</tspan><tspan fill="#f88888">@</tspan><tspan fill="#f17b7b">%</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#f07a7a">%</tspan><tspan fill="#fc9191">@</tspan><tspan fill="#ee7676">%</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#eb7171">%</tspan><tspan fill="#f98b8b">@</tspan><tspan fill="#fe9595">@@</tspan></text>
+<text x="0" y="90.0"><tspan fill="#fe9595">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#d34a4a">#</tspan><tspan fill="#f17a7a">%</tspan><tspan fill="#fb8e8e">@</tspan><tspan fill="#c73a3a">X</tspan><tspan fill="#f68484">@</tspan><tspan fill="#fe9494">@@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#e96c6c">%</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#e76969">%</tspan><tspan fill="#eb7171">%</tspan><tspan fill="#e76969">%</tspan><tspan fill="#f88888">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fc9090">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#f98a8a">@</tspan></text>
+<text x="0" y="97.0"><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan> <tspan fill="#e46464">%</tspan><tspan fill="#a91b1b">*</tspan><tspan fill="#bf3131">X</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#fc8f8f">@</tspan><tspan fill="#fe9595">@@@</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#e15f5f">%</tspan><tspan fill="#ea6f6f">%</tspan><tspan fill="#fe9595">@@@@@@@@@</tspan></text>
+<text x="0" y="104.0"><tspan fill="#fe9595">@@</tspan><tspan fill="#f98b8b">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#d44b4b">#</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#cc4141">X</tspan> <tspan fill="#970f0f">+</tspan> <tspan fill="#cd4242">X</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#e15f5f">%</tspan><tspan fill="#fe9595">@</tspan><tspan fill="#e96d6d">%</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fb8e8e">@</tspan><tspan fill="#fe9595">@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#f68484">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@</tspan></text>
+<text x="0" y="111.0"><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#dc5757">#</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#f48181">@</tspan><tspan fill="#b62727">o</tspan> <tspan fill="#bc2d2d">o</tspan>    <tspan fill="#d75050">#</tspan><tspan fill="#a31717">*</tspan><tspan fill="#d64e4e">#</tspan><tspan fill="#bb2c2c">o</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@</tspan><tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#b22424">o</tspan></text>
+<text x="0" y="118.0"><tspan fill="#bd2f2f">X</tspan><tspan fill="#fe9595">@@</tspan><tspan fill="#fd9393">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>             <tspan fill="#b32424">o</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#b52626">o</tspan> </text>
+<text x="0" y="125.0"> <tspan fill="#b92a2a">o</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#e56767">%</tspan>            <tspan fill="#ac1e1e">o</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#c33535">X</tspan>  </text>
+<text x="0" y="131.9">  <tspan fill="#ba2c2c">o</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#fb8f8f">@</tspan>             <tspan fill="#e86c6c">%</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#c13434">X</tspan>   </text>
+<text x="0" y="138.9">   <tspan fill="#af2020">o</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#f17b7b">%</tspan>             <tspan fill="#fc9090">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#b42525">o</tspan>    </text>
+<text x="0" y="145.9">    <tspan fill="#9b1111">*</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#f17c7c">%</tspan><tspan fill="#a91c1c">*</tspan>            <tspan fill="#d54d4d">#</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#980f0f">+</tspan>     </text>
+<text x="0" y="152.9">      <tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#c63939">X</tspan>             <tspan fill="#de5a5a">#</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>       </text>
+<text x="0" y="159.9">       <tspan fill="#f27d7d">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#c23535">X</tspan>            <tspan fill="#fe9494">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#f88888">@</tspan>        </text>
+<text x="0" y="166.9">        <tspan fill="#c23434">X</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>           <tspan fill="#9a1111">*</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#c93d3d">X</tspan>         </text>
+<text x="0" y="173.9">          <tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#c53838">X</tspan><tspan fill="#940d0d">+</tspan>          <tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#8b0808">+</tspan>          </text>
+<text x="0" y="180.9">           <tspan fill="#c83b3b">X</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@@</tspan>  <tspan fill="#f37f7f">@@</tspan> <tspan fill="#b52626">o</tspan><tspan fill="#f37f7f">@</tspan><tspan fill="#d64f4f">#</tspan>  <tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#d14747">#</tspan>            </text>
+<text x="0" y="187.9">             <tspan fill="#fb8d8d">@</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@</tspan>  <tspan fill="#b02222">o</tspan><tspan fill="#ba2b2b">o</tspan> <tspan fill="#8c0909">+</tspan><tspan fill="#be3030">X</tspan><tspan fill="#9e1313">*</tspan> <tspan fill="#a81b1b">*</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@@</tspan>              </text>
+<text x="0" y="194.9">              <tspan fill="#9b1111">*</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#d14848">#</tspan>        <tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#a21616">*</tspan>               </text>
+<text x="0" y="201.9">                <tspan fill="#a71a1a">*</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#b52727">o</tspan>      <tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#a81a1a">*</tspan>                 </text>
+<text x="0" y="208.9">                  <tspan fill="#9c1212">*</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@@@@</tspan><tspan fill="#c83b3b">X</tspan>      <tspan fill="#940d0d">+</tspan><tspan fill="#981010">+</tspan><tspan fill="#cd4141">X</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@@@</tspan><tspan fill="#a01414">*</tspan>                   </text>
+<text x="0" y="215.9">                     <tspan fill="#de5a5a">#</tspan><tspan fill="#fe9595">@@@@@@@@@@@@@@@</tspan><tspan fill="#e86a6a">%</tspan>           <tspan fill="#fe9595">@@@@@@@@@@@@@@</tspan><tspan fill="#dc5858">#</tspan>                      </text>
+<text x="0" y="222.9">                       <tspan fill="#a51818">*</tspan><tspan fill="#ef7878">%</tspan><tspan fill="#fe9595">@@@@@@@@@@@@</tspan><tspan fill="#f78686">@</tspan>      <tspan fill="#9b1111">*</tspan>    <tspan fill="#fe9595">@@@@@@@@@@@</tspan><tspan fill="#ed7373">%</tspan><tspan fill="#9d1212">*</tspan>                        </text>
+<text x="0" y="229.9">                          <tspan fill="#9e1313">*</tspan><tspan fill="#dd5959">#</tspan><tspan fill="#fe9595">@@@@@@@@@</tspan><tspan fill="#880707">+</tspan>           <tspan fill="#c53838">X</tspan> <tspan fill="#fe9595">@@@@@@</tspan><tspan fill="#ca3f3f">X</tspan><tspan fill="#8d0909">+</tspan>                           </text>
+<text x="0" y="236.9">                              <tspan fill="#9b1111">*</tspan><tspan fill="#c83c3c">X</tspan><tspan fill="#f37e7e">@</tspan><tspan fill="#fe9595">@@@</tspan><tspan fill="#ce4444">#</tspan>       <tspan fill="#a81a1a">*</tspan>      <tspan fill="#ba2c2c">o</tspan><tspan fill="#fb8f8f">@</tspan><tspan fill="#bd2f2f">X</tspan><tspan fill="#9a1010">*</tspan>                               </text>
+<text x="0" y="243.9">                                                                                      </text>
+<text x="0" y="250.9">                                                                                      </text>
+<text x="0" y="257.9">                                                                                      </text>
+<text x="0" y="264.9">                                                                                      </text>
+<text x="0" y="271.9">                                        <tspan fill="#950e0e">+</tspan><tspan fill="#a21616">*</tspan>  <tspan fill="#cf4545">#</tspan>                                         </text>
+<text x="0" y="278.9">                                                                                 <tspan fill="#960e0e">+</tspan><tspan fill="#920c0c">+</tspan>   </text>
+<text x="0" y="285.9">                           <tspan fill="#940d0d">+</tspan>                              <tspan fill="#920c0c">+</tspan>                      <tspan fill="#880707">+</tspan>    </text>
+<text x="0" y="292.9">                                                                                  <tspan fill="#890808">+</tspan><tspan fill="#900b0b">+</tspan><tspan fill="#880707">+</tspan><tspan fill="#8e0a0a">+</tspan></text>
+<text x="0" y="299.9">                                                                                <tspan fill="#880707">++</tspan><tspan fill="#8a0808">+</tspan><tspan fill="#900b0b">+</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#9d1313">*</tspan></text>
+<text x="0" y="306.9">                                        <tspan fill="#960e0e">+</tspan><tspan fill="#a41717">*</tspan>  <tspan fill="#cc4141">X</tspan>                          <tspan fill="#8b0808">+</tspan>     <tspan fill="#8a0808">+</tspan> <tspan fill="#880707">+</tspan> <tspan fill="#880707">+</tspan> <tspan fill="#900b0b">+</tspan><tspan fill="#970f0f">+</tspan><tspan fill="#a81b1b">*</tspan></text>
+<text x="0" y="313.9">                                                                                    <tspan fill="#8c0909">+</tspan> </text>
+<text x="0" y="320.9">                                                                    <tspan fill="#8a0808">+</tspan>                 </text>
+<text x="0" y="327.9">                                                                 <tspan fill="#880707">+</tspan><tspan fill="#960e0e">+</tspan><tspan fill="#9a1010">*</tspan>                  </text>
+<text x="0" y="334.9">                                                                                      </text>
+<text x="0" y="341.9">                                        <tspan fill="#920c0c">+</tspan><tspan fill="#a01515">*</tspan>  <tspan fill="#cd4242">X</tspan>                                         </text>
+<text x="0" y="348.9">                                                                                      </text>
+<text x="0" y="355.9">                                                                                      </text>
+<text x="0" y="362.9">                                                                                      </text>
+<text x="0" y="369.9">                                                                                      </text>
+<text x="0" y="376.9">                                        <tspan fill="#920c0c">+</tspan><tspan fill="#a01515">*</tspan>  <tspan fill="#cc4141">X</tspan>                                         </text>
+<text x="0" y="383.9">                                                                                      </text>
+<text x="0" y="390.9">                                                                                      </text>
+<text x="0" y="397.9">                                                                                      </text>
+<text x="0" y="404.9">                                                                                      </text>
+<text x="0" y="411.9">                                                                                      </text>
+<text x="0" y="418.9">                                                                                      </text>
+<text x="0" y="425.9">                                                                                      </text>
+<text x="0" y="432.9">                                                                                      </text>
+<text x="0" y="439.9">                                                                                      </text>
+<text x="0" y="446.9">                                                                                      </text>
+<text x="0" y="453.9">                                 <tspan fill="#920c0c">+</tspan>                                                    </text>
+<text x="0" y="460.9">          <tspan fill="#880707">+</tspan>                                                                           </text>
+<text x="0" y="467.9">                                                                                      </text>
+<text x="0" y="474.9">                                                                                      </text>
+<text x="0" y="481.9">                                                                                      </text>
+<text x="0" y="488.9">                                                                                      </text>
+<text x="0" y="495.9">                                                                                      </text>
+<text x="0" y="502.9">                                                                                      </text>
+<text x="0" y="509.9">                                                                                      </text>
+<text x="0" y="517.0">                       <tspan fill="#8c0909">+</tspan>                                                              </text>
+<text x="0" y="524.0">                     <tspan fill="#8a0808">+</tspan> <tspan fill="#890808">+</tspan>                                                              </text>
+<text x="0" y="531.0">         <tspan fill="#8a0808">++</tspan><tspan fill="#8b0808">+</tspan><tspan fill="#8a0808">+</tspan>    <tspan fill="#880707">++++</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#8c0909">+</tspan><tspan fill="#8e0a0a">+</tspan>                                                              </text>
+<text x="0" y="538.0">        <tspan fill="#880707">+</tspan><tspan fill="#8c0909">++++</tspan><tspan fill="#890808">+</tspan><tspan fill="#8b0808">+</tspan><tspan fill="#8c0909">+</tspan><tspan fill="#8b0808">+</tspan><tspan fill="#8c0909">++++</tspan><tspan fill="#960e0e">+</tspan><tspan fill="#940d0d">+</tspan><tspan fill="#920c0c">+</tspan>                                                              </text>
+<text x="0" y="545.0">       <tspan fill="#880707">++</tspan><tspan fill="#8b0808">+</tspan><tspan fill="#8c0909">+</tspan><tspan fill="#900b0b">+</tspan><tspan fill="#8f0a0a">++</tspan><tspan fill="#900b0b">++</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#900b0b">+</tspan><tspan fill="#8e0a0a">++</tspan><tspan fill="#900b0b">+</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#970f0f">+</tspan><tspan fill="#9e1313">*</tspan><tspan fill="#900b0b">+</tspan>                                                             </text>
+<text x="0" y="552.0">     <tspan fill="#890808">+</tspan><tspan fill="#8b0808">++</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#8f0a0a">+</tspan><tspan fill="#920c0c">+</tspan><tspan fill="#940d0d">++</tspan><tspan fill="#960e0e">+</tspan><tspan fill="#980f0f">++</tspan><tspan fill="#960e0e">++</tspan><tspan fill="#940d0d">+</tspan><tspan fill="#960e0e">+</tspan><tspan fill="#930c0c">+</tspan>                                                                 </text>
+<text x="0" y="559.0">     <tspan fill="#880707">+</tspan><tspan fill="#8b0808">+</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#920c0c">+</tspan><tspan fill="#960e0e">+</tspan><tspan fill="#970f0f">+</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#9a1111">*</tspan><tspan fill="#9d1313">*</tspan><tspan fill="#a11515">**</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#9a1010">*</tspan><tspan fill="#980f0f">++</tspan><tspan fill="#9b1111">*</tspan><tspan fill="#940d0d">+</tspan>                                                                </text>
+<text x="0" y="566.0">    <tspan fill="#880707">+</tspan><tspan fill="#8a0808">+</tspan><tspan fill="#900b0b">++</tspan><tspan fill="#940d0d">+</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#9a1010">*</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#9f1414">*</tspan><tspan fill="#a41717">*</tspan><tspan fill="#a61919">**</tspan><tspan fill="#a41818">*</tspan><tspan fill="#a21616">*</tspan><tspan fill="#a01515">*</tspan><tspan fill="#a01414">*</tspan><tspan fill="#a01515">*</tspan><tspan fill="#ae2020">o</tspan><tspan fill="#b62727">o</tspan><tspan fill="#a61919">*</tspan><tspan fill="#ae2020">o</tspan><tspan fill="#890707">+</tspan>                                                            </text>
+<text x="0" y="573.0">   <tspan fill="#880707">++</tspan><tspan fill="#8b0808">+</tspan><tspan fill="#8e0a0a">+</tspan><tspan fill="#8f0a0a">+</tspan><tspan fill="#940d0d">+</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#9e1313">**</tspan><tspan fill="#a21616">*</tspan><tspan fill="#a51818">*</tspan><tspan fill="#a61919">*</tspan><tspan fill="#aa1c1c">**</tspan><tspan fill="#ab1d1d">o</tspan><tspan fill="#a81b1b">**</tspan><tspan fill="#a71a1a">*</tspan><tspan fill="#aa1c1c">*</tspan><tspan fill="#ae2020">o</tspan><tspan fill="#a21616">*</tspan><tspan fill="#af2121">o</tspan>                                 <tspan fill="#880707">+</tspan>                           </text>
+<text x="0" y="580.0">   <tspan fill="#8a0808">+</tspan><tspan fill="#8c0909">++</tspan><tspan fill="#900b0b">+</tspan><tspan fill="#930c0c">+</tspan><tspan fill="#9a1010">*</tspan><tspan fill="#a01414">*</tspan><tspan fill="#a41818">*</tspan><tspan fill="#a51818">*</tspan><tspan fill="#a81b1b">*</tspan><tspan fill="#a51818">**</tspan><tspan fill="#ab1d1d">o</tspan><tspan fill="#b22323">oo</tspan><tspan fill="#b12222">o</tspan><tspan fill="#af2121">o</tspan><tspan fill="#ad1f1f">o</tspan><tspan fill="#b12323">o</tspan><tspan fill="#b52727">o</tspan><tspan fill="#b12222">o</tspan><tspan fill="#970f0f">+</tspan>                                 <tspan fill="#8c0909">+</tspan>                           </text>
+<text x="0" y="587.0">     <tspan fill="#8c0909">+</tspan><tspan fill="#900b0b">+</tspan><tspan fill="#940d0d">+</tspan><tspan fill="#9a1010">*</tspan><tspan fill="#9d1313">*</tspan><tspan fill="#a41818">*</tspan><tspan fill="#a71a1a">*</tspan><tspan fill="#ab1d1d">ooo</tspan><tspan fill="#b12323">o</tspan><tspan fill="#b82929">ooo</tspan><tspan fill="#b52626">o</tspan><tspan fill="#b32525">o</tspan><tspan fill="#b72929">o</tspan><tspan fill="#b12222">o</tspan><tspan fill="#c13333">X</tspan><tspan fill="#8f0a0a">+</tspan>                                                             </text>
+<text x="0" y="594.0"><tspan fill="#880707">+</tspan><tspan fill="#960e0e">+</tspan><tspan fill="#a01515">*</tspan><tspan fill="#a41818">*</tspan><tspan fill="#a01414">*</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#9d1313">*</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#9a1010">*</tspan><tspan fill="#9f1414">*</tspan><tspan fill="#a81b1b">*</tspan><tspan fill="#ac1e1e">o</tspan><tspan fill="#b12222">o</tspan><tspan fill="#b22323">o</tspan><tspan fill="#b62727">oo</tspan><tspan fill="#bb2d2d">o</tspan><tspan fill="#bf3131">X</tspan><tspan fill="#be3030">XX</tspan><tspan fill="#ba2b2b">o</tspan><tspan fill="#b62727">o</tspan><tspan fill="#c83c3c">X</tspan><tspan fill="#a81b1b">*</tspan>                                                              </text>
+<text x="0" y="601.0"> <tspan fill="#8b0808">+</tspan><tspan fill="#980f0f">+</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#a71a1a">*</tspan><tspan fill="#a21616">*</tspan><tspan fill="#a31717">*</tspan><tspan fill="#9c1212">*</tspan><tspan fill="#9d1313">*</tspan><tspan fill="#a51818">*</tspan><tspan fill="#ab1d1d">o</tspan><tspan fill="#b12222">o</tspan><tspan fill="#b42525">o</tspan><tspan fill="#b92a2a">o</tspan><tspan fill="#c03232">X</tspan><tspan fill="#c33535">X</tspan><tspan fill="#c93c3c">X</tspan><tspan fill="#ce4343">X</tspan><tspan fill="#cc4141">X</tspan><tspan fill="#ca3e3e">X</tspan><tspan fill="#cb3f3f">X</tspan><tspan fill="#ae2020">o</tspan><tspan fill="#a41818">*</tspan>                                                               </text>
+</g></g></g>
+    <rect class="scan" x="16" y="52" width="340" height="16" fill="#ff2a2a" fill-opacity="0.06" clip-path="url(#pan)"/>
+
+    <!-- status row -->
+    <g class="mono halo" font-size="11.5" letter-spacing="3" fill="#ff6b6b">
+      <circle cx="411" cy="40" r="4" fill="#ff2a2a"/>
+      <text x="424" y="41">LIVE // SIGNAL</text>
+      <text x="974" y="41" text-anchor="end" fill="#6a5a5e">THREAT HUNTING · HARDWARE · AI RED-TEAM</text>
+    </g>
+
+    <!-- name -->
+    <g class="glyphs">
+      <g filter="url(#soft)" fill="#ff3a3a" opacity="0.95"><rect x="406" y="92" width="10" height="10" rx="2"/>
+<rect x="418" y="92" width="10" height="10" rx="2"/>
+<rect x="430" y="92" width="10" height="10" rx="2"/>
+<rect x="442" y="92" width="10" height="10" rx="2"/>
+<rect x="454" y="92" width="10" height="10" rx="2"/>
+<rect x="466" y="92" width="10" height="10" rx="2"/>
+<rect x="478" y="92" width="10" height="10" rx="2"/>
+<rect x="502" y="92" width="10" height="10" rx="2"/>
+<rect x="514" y="92" width="10" height="10" rx="2"/>
+<rect x="598" y="92" width="10" height="10" rx="2"/>
+<rect x="610" y="92" width="10" height="10" rx="2"/>
+<rect x="622" y="92" width="10" height="10" rx="2"/>
+<rect x="634" y="92" width="10" height="10" rx="2"/>
+<rect x="646" y="92" width="10" height="10" rx="2"/>
+<rect x="658" y="92" width="10" height="10" rx="2"/>
+<rect x="670" y="92" width="10" height="10" rx="2"/>
+<rect x="694" y="92" width="10" height="10" rx="2"/>
+<rect x="706" y="92" width="10" height="10" rx="2"/>
+<rect x="718" y="92" width="10" height="10" rx="2"/>
+<rect x="730" y="92" width="10" height="10" rx="2"/>
+<rect x="742" y="92" width="10" height="10" rx="2"/>
+<rect x="754" y="92" width="10" height="10" rx="2"/>
+<rect x="766" y="92" width="10" height="10" rx="2"/>
+<rect x="802" y="92" width="10" height="10" rx="2"/>
+<rect x="814" y="92" width="10" height="10" rx="2"/>
+<rect x="838" y="92" width="10" height="10" rx="2"/>
+<rect x="850" y="92" width="10" height="10" rx="2"/>
+<rect x="862" y="92" width="10" height="10" rx="2"/>
+<rect x="874" y="92" width="10" height="10" rx="2"/>
+<rect x="886" y="92" width="10" height="10" rx="2"/>
+<rect x="898" y="92" width="10" height="10" rx="2"/>
+<rect x="442" y="104" width="10" height="10" rx="2"/>
+<rect x="454" y="104" width="10" height="10" rx="2"/>
+<rect x="466" y="104" width="10" height="10" rx="2"/>
+<rect x="502" y="104" width="10" height="10" rx="2"/>
+<rect x="514" y="104" width="10" height="10" rx="2"/>
+<rect x="598" y="104" width="10" height="10" rx="2"/>
+<rect x="610" y="104" width="10" height="10" rx="2"/>
+<rect x="694" y="104" width="10" height="10" rx="2"/>
+<rect x="706" y="104" width="10" height="10" rx="2"/>
+<rect x="790" y="104" width="10" height="10" rx="2"/>
+<rect x="802" y="104" width="10" height="10" rx="2"/>
+<rect x="814" y="104" width="10" height="10" rx="2"/>
+<rect x="898" y="104" width="10" height="10" rx="2"/>
+<rect x="910" y="104" width="10" height="10" rx="2"/>
+<rect x="430" y="116" width="10" height="10" rx="2"/>
+<rect x="442" y="116" width="10" height="10" rx="2"/>
+<rect x="454" y="116" width="10" height="10" rx="2"/>
+<rect x="502" y="116" width="10" height="10" rx="2"/>
+<rect x="514" y="116" width="10" height="10" rx="2"/>
+<rect x="598" y="116" width="10" height="10" rx="2"/>
+<rect x="610" y="116" width="10" height="10" rx="2"/>
+<rect x="622" y="116" width="10" height="10" rx="2"/>
+<rect x="634" y="116" width="10" height="10" rx="2"/>
+<rect x="646" y="116" width="10" height="10" rx="2"/>
+<rect x="694" y="116" width="10" height="10" rx="2"/>
+<rect x="706" y="116" width="10" height="10" rx="2"/>
+<rect x="718" y="116" width="10" height="10" rx="2"/>
+<rect x="730" y="116" width="10" height="10" rx="2"/>
+<rect x="742" y="116" width="10" height="10" rx="2"/>
+<rect x="802" y="116" width="10" height="10" rx="2"/>
+<rect x="814" y="116" width="10" height="10" rx="2"/>
+<rect x="850" y="116" width="10" height="10" rx="2"/>
+<rect x="862" y="116" width="10" height="10" rx="2"/>
+<rect x="874" y="116" width="10" height="10" rx="2"/>
+<rect x="886" y="116" width="10" height="10" rx="2"/>
+<rect x="898" y="116" width="10" height="10" rx="2"/>
+<rect x="418" y="128" width="10" height="10" rx="2"/>
+<rect x="430" y="128" width="10" height="10" rx="2"/>
+<rect x="442" y="128" width="10" height="10" rx="2"/>
+<rect x="502" y="128" width="10" height="10" rx="2"/>
+<rect x="514" y="128" width="10" height="10" rx="2"/>
+<rect x="598" y="128" width="10" height="10" rx="2"/>
+<rect x="610" y="128" width="10" height="10" rx="2"/>
+<rect x="694" y="128" width="10" height="10" rx="2"/>
+<rect x="706" y="128" width="10" height="10" rx="2"/>
+<rect x="802" y="128" width="10" height="10" rx="2"/>
+<rect x="814" y="128" width="10" height="10" rx="2"/>
+<rect x="838" y="128" width="10" height="10" rx="2"/>
+<rect x="850" y="128" width="10" height="10" rx="2"/>
+<rect x="406" y="140" width="10" height="10" rx="2"/>
+<rect x="418" y="140" width="10" height="10" rx="2"/>
+<rect x="430" y="140" width="10" height="10" rx="2"/>
+<rect x="442" y="140" width="10" height="10" rx="2"/>
+<rect x="454" y="140" width="10" height="10" rx="2"/>
+<rect x="466" y="140" width="10" height="10" rx="2"/>
+<rect x="478" y="140" width="10" height="10" rx="2"/>
+<rect x="502" y="140" width="10" height="10" rx="2"/>
+<rect x="514" y="140" width="10" height="10" rx="2"/>
+<rect x="526" y="140" width="10" height="10" rx="2"/>
+<rect x="538" y="140" width="10" height="10" rx="2"/>
+<rect x="550" y="140" width="10" height="10" rx="2"/>
+<rect x="562" y="140" width="10" height="10" rx="2"/>
+<rect x="574" y="140" width="10" height="10" rx="2"/>
+<rect x="598" y="140" width="10" height="10" rx="2"/>
+<rect x="610" y="140" width="10" height="10" rx="2"/>
+<rect x="622" y="140" width="10" height="10" rx="2"/>
+<rect x="634" y="140" width="10" height="10" rx="2"/>
+<rect x="646" y="140" width="10" height="10" rx="2"/>
+<rect x="658" y="140" width="10" height="10" rx="2"/>
+<rect x="670" y="140" width="10" height="10" rx="2"/>
+<rect x="694" y="140" width="10" height="10" rx="2"/>
+<rect x="706" y="140" width="10" height="10" rx="2"/>
+<rect x="718" y="140" width="10" height="10" rx="2"/>
+<rect x="730" y="140" width="10" height="10" rx="2"/>
+<rect x="742" y="140" width="10" height="10" rx="2"/>
+<rect x="754" y="140" width="10" height="10" rx="2"/>
+<rect x="766" y="140" width="10" height="10" rx="2"/>
+<rect x="802" y="140" width="10" height="10" rx="2"/>
+<rect x="814" y="140" width="10" height="10" rx="2"/>
+<rect x="838" y="140" width="10" height="10" rx="2"/>
+<rect x="850" y="140" width="10" height="10" rx="2"/>
+<rect x="862" y="140" width="10" height="10" rx="2"/>
+<rect x="874" y="140" width="10" height="10" rx="2"/>
+<rect x="886" y="140" width="10" height="10" rx="2"/>
+<rect x="898" y="140" width="10" height="10" rx="2"/>
+<rect x="910" y="140" width="10" height="10" rx="2"/></g>
+      <g fill="url(#name)"><rect x="406" y="92" width="10" height="10" rx="2"/>
+<rect x="418" y="92" width="10" height="10" rx="2"/>
+<rect x="430" y="92" width="10" height="10" rx="2"/>
+<rect x="442" y="92" width="10" height="10" rx="2"/>
+<rect x="454" y="92" width="10" height="10" rx="2"/>
+<rect x="466" y="92" width="10" height="10" rx="2"/>
+<rect x="478" y="92" width="10" height="10" rx="2"/>
+<rect x="502" y="92" width="10" height="10" rx="2"/>
+<rect x="514" y="92" width="10" height="10" rx="2"/>
+<rect x="598" y="92" width="10" height="10" rx="2"/>
+<rect x="610" y="92" width="10" height="10" rx="2"/>
+<rect x="622" y="92" width="10" height="10" rx="2"/>
+<rect x="634" y="92" width="10" height="10" rx="2"/>
+<rect x="646" y="92" width="10" height="10" rx="2"/>
+<rect x="658" y="92" width="10" height="10" rx="2"/>
+<rect x="670" y="92" width="10" height="10" rx="2"/>
+<rect x="694" y="92" width="10" height="10" rx="2"/>
+<rect x="706" y="92" width="10" height="10" rx="2"/>
+<rect x="718" y="92" width="10" height="10" rx="2"/>
+<rect x="730" y="92" width="10" height="10" rx="2"/>
+<rect x="742" y="92" width="10" height="10" rx="2"/>
+<rect x="754" y="92" width="10" height="10" rx="2"/>
+<rect x="766" y="92" width="10" height="10" rx="2"/>
+<rect x="802" y="92" width="10" height="10" rx="2"/>
+<rect x="814" y="92" width="10" height="10" rx="2"/>
+<rect x="838" y="92" width="10" height="10" rx="2"/>
+<rect x="850" y="92" width="10" height="10" rx="2"/>
+<rect x="862" y="92" width="10" height="10" rx="2"/>
+<rect x="874" y="92" width="10" height="10" rx="2"/>
+<rect x="886" y="92" width="10" height="10" rx="2"/>
+<rect x="898" y="92" width="10" height="10" rx="2"/>
+<rect x="442" y="104" width="10" height="10" rx="2"/>
+<rect x="454" y="104" width="10" height="10" rx="2"/>
+<rect x="466" y="104" width="10" height="10" rx="2"/>
+<rect x="502" y="104" width="10" height="10" rx="2"/>
+<rect x="514" y="104" width="10" height="10" rx="2"/>
+<rect x="598" y="104" width="10" height="10" rx="2"/>
+<rect x="610" y="104" width="10" height="10" rx="2"/>
+<rect x="694" y="104" width="10" height="10" rx="2"/>
+<rect x="706" y="104" width="10" height="10" rx="2"/>
+<rect x="790" y="104" width="10" height="10" rx="2"/>
+<rect x="802" y="104" width="10" height="10" rx="2"/>
+<rect x="814" y="104" width="10" height="10" rx="2"/>
+<rect x="898" y="104" width="10" height="10" rx="2"/>
+<rect x="910" y="104" width="10" height="10" rx="2"/>
+<rect x="430" y="116" width="10" height="10" rx="2"/>
+<rect x="442" y="116" width="10" height="10" rx="2"/>
+<rect x="454" y="116" width="10" height="10" rx="2"/>
+<rect x="502" y="116" width="10" height="10" rx="2"/>
+<rect x="514" y="116" width="10" height="10" rx="2"/>
+<rect x="598" y="116" width="10" height="10" rx="2"/>
+<rect x="610" y="116" width="10" height="10" rx="2"/>
+<rect x="622" y="116" width="10" height="10" rx="2"/>
+<rect x="634" y="116" width="10" height="10" rx="2"/>
+<rect x="646" y="116" width="10" height="10" rx="2"/>
+<rect x="694" y="116" width="10" height="10" rx="2"/>
+<rect x="706" y="116" width="10" height="10" rx="2"/>
+<rect x="718" y="116" width="10" height="10" rx="2"/>
+<rect x="730" y="116" width="10" height="10" rx="2"/>
+<rect x="742" y="116" width="10" height="10" rx="2"/>
+<rect x="802" y="116" width="10" height="10" rx="2"/>
+<rect x="814" y="116" width="10" height="10" rx="2"/>
+<rect x="850" y="116" width="10" height="10" rx="2"/>
+<rect x="862" y="116" width="10" height="10" rx="2"/>
+<rect x="874" y="116" width="10" height="10" rx="2"/>
+<rect x="886" y="116" width="10" height="10" rx="2"/>
+<rect x="898" y="116" width="10" height="10" rx="2"/>
+<rect x="418" y="128" width="10" height="10" rx="2"/>
+<rect x="430" y="128" width="10" height="10" rx="2"/>
+<rect x="442" y="128" width="10" height="10" rx="2"/>
+<rect x="502" y="128" width="10" height="10" rx="2"/>
+<rect x="514" y="128" width="10" height="10" rx="2"/>
+<rect x="598" y="128" width="10" height="10" rx="2"/>
+<rect x="610" y="128" width="10" height="10" rx="2"/>
+<rect x="694" y="128" width="10" height="10" rx="2"/>
+<rect x="706" y="128" width="10" height="10" rx="2"/>
+<rect x="802" y="128" width="10" height="10" rx="2"/>
+<rect x="814" y="128" width="10" height="10" rx="2"/>
+<rect x="838" y="128" width="10" height="10" rx="2"/>
+<rect x="850" y="128" width="10" height="10" rx="2"/>
+<rect x="406" y="140" width="10" height="10" rx="2"/>
+<rect x="418" y="140" width="10" height="10" rx="2"/>
+<rect x="430" y="140" width="10" height="10" rx="2"/>
+<rect x="442" y="140" width="10" height="10" rx="2"/>
+<rect x="454" y="140" width="10" height="10" rx="2"/>
+<rect x="466" y="140" width="10" height="10" rx="2"/>
+<rect x="478" y="140" width="10" height="10" rx="2"/>
+<rect x="502" y="140" width="10" height="10" rx="2"/>
+<rect x="514" y="140" width="10" height="10" rx="2"/>
+<rect x="526" y="140" width="10" height="10" rx="2"/>
+<rect x="538" y="140" width="10" height="10" rx="2"/>
+<rect x="550" y="140" width="10" height="10" rx="2"/>
+<rect x="562" y="140" width="10" height="10" rx="2"/>
+<rect x="574" y="140" width="10" height="10" rx="2"/>
+<rect x="598" y="140" width="10" height="10" rx="2"/>
+<rect x="610" y="140" width="10" height="10" rx="2"/>
+<rect x="622" y="140" width="10" height="10" rx="2"/>
+<rect x="634" y="140" width="10" height="10" rx="2"/>
+<rect x="646" y="140" width="10" height="10" rx="2"/>
+<rect x="658" y="140" width="10" height="10" rx="2"/>
+<rect x="670" y="140" width="10" height="10" rx="2"/>
+<rect x="694" y="140" width="10" height="10" rx="2"/>
+<rect x="706" y="140" width="10" height="10" rx="2"/>
+<rect x="718" y="140" width="10" height="10" rx="2"/>
+<rect x="730" y="140" width="10" height="10" rx="2"/>
+<rect x="742" y="140" width="10" height="10" rx="2"/>
+<rect x="754" y="140" width="10" height="10" rx="2"/>
+<rect x="766" y="140" width="10" height="10" rx="2"/>
+<rect x="802" y="140" width="10" height="10" rx="2"/>
+<rect x="814" y="140" width="10" height="10" rx="2"/>
+<rect x="838" y="140" width="10" height="10" rx="2"/>
+<rect x="850" y="140" width="10" height="10" rx="2"/>
+<rect x="862" y="140" width="10" height="10" rx="2"/>
+<rect x="874" y="140" width="10" height="10" rx="2"/>
+<rect x="886" y="140" width="10" height="10" rx="2"/>
+<rect x="898" y="140" width="10" height="10" rx="2"/>
+<rect x="910" y="140" width="10" height="10" rx="2"/></g>
+    </g>
+
+    <path class="line" d="M406 184H974" stroke="url(#rule)" stroke-width="2"/>
+
+    <!-- subtitle + precept -->
+    <g class="mono">
+      <text x="406" y="210" font-size="15" letter-spacing="1" fill="#e7e7ea">threat hunter · systems &amp; security engineer</text>
+      <text x="818" y="210" font-size="15" fill="#ff2a2a" class="cur">▋</text>
+      <text x="406" y="236" font-size="12.5" letter-spacing="1.5" fill="#8a7a7e">SECURITY · MICROCONTROLLERS · DIY &amp; HARDWARE HACKING</text>
+    </g>
+
+    <!-- the way: three precepts -->
+    <g class="mono" font-size="12" fill="#c4b4b8">
+      <text x="406" y="272"><tspan fill="#ff4b4b">λ</tspan>  protect what lives — tools that give people agency, not take it</text>
+      <text x="406" y="294"><tspan fill="#ff4b4b">λ</tspan>  small, sharp, local-first — own the stack, trust what you can read</text>
+      <text x="406" y="316"><tspan fill="#ff4b4b">λ</tspan>  do nothing of no use — discipline over noise, the long way is the way</text>
+    </g>
+
+    <g><rect x="406" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="420" y="358" font-size="20" fill="#ff5b5b" font-weight="700">2</text><text class="mono" x="420" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">REPOS</text></g>
+<g><rect x="547" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="561" y="358" font-size="20" fill="#ff5b5b" font-weight="700">0</text><text class="mono" x="561" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">STARS</text></g>
+<g><rect x="688" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="702" y="358" font-size="20" fill="#ff5b5b" font-weight="700">12</text><text class="mono" x="702" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">CONTRIB</text></g>
+<g><rect x="829" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="843" y="358" font-size="20" fill="#ff5b5b" font-weight="700">2</text><text class="mono" x="843" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">FOLLOWERS</text></g>
+
+    <rect x="1" y="1" width="998" height="428" rx="18" fill="none" stroke="#ff2a2a" stroke-opacity="0.32" stroke-width="2"/>
+  </g>
+</svg>
