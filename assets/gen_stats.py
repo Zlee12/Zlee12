@@ -52,16 +52,16 @@ def stats_card():
     open(os.path.join(HERE, "stats.svg"), "w").write("\n".join(out)+"\n</svg>\n")
 
 # ---- contribution heatmap -------------------------------------------------
-def heat_color(c, mx):
-    if c <= 0: return "#15090c"
-    t = (c / mx) ** 0.6
-    stops = [(0.0,(74,15,18)),(0.4,(143,17,20)),(0.7,(216,31,31)),(1.0,(255,91,91))]
-    for k in range(len(stops)-1):
-        a,(ar,ag,ab)=stops[k]; b,(br,bg,bb)=stops[k+1]
-        if t<=b:
-            f=(t-a)/(b-a) if b>a else 0
-            return f"#{int(ar+f*(br-ar)):02x}{int(ag+f*(bg-ag)):02x}{int(ab+f*(bb-ab)):02x}"
-    return "#ff5b5b"
+# GitHub-style quartile buckets so one heavy day can't wash out the rest.
+LEVELS = ["#15090c", "#4a0f12", "#8f1114", "#d81f1f", "#ff5b5b"]
+
+def cell_color(c, q):
+    if c <= 0:
+        return LEVELS[0]
+    for i, t in enumerate(q):
+        if c <= t:
+            return LEVELS[i+1]
+    return LEVELS[4]
 
 def graph_card():
     path = os.path.join(HERE, "cal.json")
@@ -75,7 +75,11 @@ def graph_card():
             weeks = []
     if not weeks:
         weeks = [[0]*7 for _ in range(53)]        # empty grid until the Action fills it
-    mx = max((max(w) for w in weeks if w), default=1) or 1
+    nz = sorted(c for w in weeks for c in w if c > 0)
+    if nz:
+        q = [nz[min(len(nz)-1, int(len(nz)*f))] for f in (0.25, 0.5, 0.75)]
+    else:
+        q = [1, 2, 3]
     cell, gap, pad = 11, 3, 24
     gw = len(weeks)*(cell+gap)
     W = pad*2 + gw; H = pad*2 + 7*(cell+gap) + 24
@@ -87,13 +91,13 @@ def graph_card():
         x = pad + wi*(cell+gap)
         for di in range(7):
             c = wk[di] if di < len(wk) else 0
-            out.append(f'<rect x="{x}" y="{y0+di*(cell+gap)}" width="{cell}" height="{cell}" rx="2" fill="{heat_color(c,mx)}"/>')
+            out.append(f'<rect x="{x}" y="{y0+di*(cell+gap)}" width="{cell}" height="{cell}" rx="2" fill="{cell_color(c,q)}"/>')
     # legend
     lx = W - pad - 5*(cell+gap) - 60
     ly = H - 16
     out.append(f'<text x="{lx-30}" y="{ly+9}" {FONT} font-size="10" fill="{MUT}">less</text>')
-    for i,c in enumerate([0, mx*0.25, mx*0.5, mx*0.75, mx]):
-        out.append(f'<rect x="{lx+i*(cell+gap)}" y="{ly}" width="{cell}" height="{cell}" rx="2" fill="{heat_color(c,mx)}"/>')
+    for i, col in enumerate(LEVELS):
+        out.append(f'<rect x="{lx+i*(cell+gap)}" y="{ly}" width="{cell}" height="{cell}" rx="2" fill="{col}"/>')
     out.append(f'<text x="{lx+5*(cell+gap)+4}" y="{ly+9}" {FONT} font-size="10" fill="{MUT}">more</text>')
     open(os.path.join(HERE, "graph.svg"), "w").write("\n".join(out)+"\n</svg>\n")
 
