@@ -31,7 +31,10 @@ jobs:
 
       - name: Fetch stats + contribution calendar
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # PROFILE_TOKEN (a personal access token) sees private contributions
+          # so the calendar matches your profile's real total; without it, the
+          # default GITHUB_TOKEN sees only public activity.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           LOGIN: ${{ github.repository_owner }}
         run: |
           data=$(gh api graphql -f login="$LOGIN" -f query='
