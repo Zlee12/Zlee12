@@ -6,10 +6,6 @@
 
 ### Threat Hunter · AI Red Team · Systems &amp; Security Engineer
 
-<p>Security · Microcontrollers · DIY &amp; hardware hacking</p>
-
-<p><a href="https://github.com/Zlee12"><b>GitHub</b></a> · <a href="https://buymeacoffee.com/zlee12"><b>Buy Me a Coffee</b></a></p>
-
 </div>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
