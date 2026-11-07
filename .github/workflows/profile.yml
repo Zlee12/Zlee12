@@ -8,6 +8,8 @@ on:
     branches: [main]
     paths:
       - "assets/gen_stats.py"
+      - "assets/gen_hero.py"
+      - "assets/portrait.png"
       - ".github/workflows/profile.yml"
 
 permissions:
@@ -65,13 +67,16 @@ jobs:
           echo "wrote assets/cal.json ($(jq '.weeks|length' assets/cal.json) weeks)"
 
       - name: Render SVGs
-        run: python assets/gen_stats.py
+        run: |
+          pip install --quiet pyfiglet pillow
+          python assets/gen_stats.py
+          python assets/gen_hero.py
 
       - name: Commit if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/stats.svg assets/graph.svg assets/cal.json
+          git add assets/stats.svg assets/graph.svg assets/cal.json assets/hero.svg
           if ! git diff --cached --quiet; then
             git commit -m "chore: refresh profile stats [skip ci]"
             git push

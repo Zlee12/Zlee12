@@ -2,10 +2,7 @@
 
 <sub>ZLEE12 · LIVE</sub>
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=living-identity&label=Zlee12&v=wow-living-identity-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/hero?username=zlee12&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F17334401%3Fu%3D58e98bc68ee8afe24a151686f833b66db0a7bb6d%26v%3D4&variant=living-identity&label=Zlee12&v=wow-living-identity-1&mode=dark" width="100%" alt="Zlee12 animated Living Identity portrait and ASCII name" />
-</picture>
+<img src="assets/hero.svg" width="100%" alt="ZLEE12 — threat hunter, AI red team, systems and security engineer" />
 
 ### Threat Hunter · AI Red Team · Systems &amp; Security Engineer
 

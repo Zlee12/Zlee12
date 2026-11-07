@@ -11,11 +11,14 @@ Usage:  python assets/gen_hero.py  ->  writes assets/hero.svg
 """
 import os
 import html
+import base64
 import pyfiglet
 from PIL import Image, ImageEnhance
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 AVATAR = os.path.join(HERE, "avatar.jpg")
+PORTRAIT_IMG = os.path.join(HERE, "portrait.png")   # the gitskins living-identity render
+PANEL_BG = "#0a0e17"                                 # matches the render's dark tone
 OUT = os.path.join(HERE, "hero.svg")
 
 # ---- live stats (env, with fallbacks) --------------------------------------
@@ -101,12 +104,10 @@ def build_name(x0, y0, cell=13):
 # ---- compose ---------------------------------------------------------------
 W, H = 1000, 430
 PANEL = 372                      # portrait column width
-_port, natW, natH = build_portrait()
-bx, by, bw, bh = 24, 60, PANEL-48, H-136
-s = min(bw/natW, bh/natH)
-ox = bx + (bw - natW*s)/2
-oy = by + (bh - natH*s)/2
-port = f'<g transform="translate({ox:.1f},{oy:.1f}) scale({s:.4f})">{_port}</g>'
+_img64 = base64.b64encode(open(PORTRAIT_IMG, "rb").read()).decode()
+port = (f'<image href="data:image/png;base64,{_img64}" '
+        f'x="16" y="52" width="{PANEL-32}" height="{H-120}" '
+        f'preserveAspectRatio="xMidYMid meet"/>')
 blocks, nw, nh = build_name(PANEL+34, 92, cell=12)
 
 RX = PANEL + 34                  # right column x
@@ -176,8 +177,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
       <path d="M420 0V430M560 0V430M700 0V430M840 0V430"/></g>
 
     <!-- portrait panel -->
-    <rect x="16" y="52" width="{PANEL-32}" height="{H-120}" rx="12" fill="#09070a"/>
-    <g clip-path="url(#pan)" class="glyphs">{port}</g>
+    <rect x="16" y="52" width="{PANEL-32}" height="{H-120}" rx="12" fill="{PANEL_BG}"/>
+    <g clip-path="url(#pan)">{port}</g>
     <rect class="scan" x="16" y="52" width="{PANEL-32}" height="16" fill="#ff2a2a" fill-opacity="0.06" clip-path="url(#pan)"/>
     {brackets}
 
