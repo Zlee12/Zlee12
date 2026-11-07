@@ -6,9 +6,9 @@
 
 ### Threat Hunter · AI Red Team · Systems &amp; Security Engineer
 
-<p><sub>Security · Microcontrollers · DIY &amp; hardware hacking</sub></p>
+<p>Security · Microcontrollers · DIY &amp; hardware hacking</p>
 
-<a href="https://github.com/Zlee12"><img src="https://img.shields.io/badge/GitHub-0a0a0d?style=for-the-badge&logo=github&logoColor=ff5b5b&labelColor=0a0a0d" alt="GitHub" /></a>
+<p><a href="https://github.com/Zlee12"><b>GitHub</b></a> · <a href="https://buymeacoffee.com/zlee12"><b>Buy Me a Coffee</b></a></p>
 
 </div>
 
@@ -16,33 +16,22 @@
 
 ## Who I am
 
-<table width="100%" style="table-layout:fixed">
-<tr>
-<td width="62%" valign="top">
-<p>Threat hunting · AI red-teaming · hardware I can hold — prototyping anything from mouse firmware to a ClockworkPi uConsole radio rig.</p>
-<p><strong>Focus:</strong> <code>offense to defend</code> · <code>build-in-the-open</code> · <code>local-first</code></p>
-<blockquote><sub><em>"It's not your right to decide whether they live or die. They deserve a chance."</em> — Vash the Stampede<br/>
-<em>"Do nothing which is of no use."</em> — Miyamoto Musashi, <em>Dokkōdō</em></sub></blockquote>
-</td>
-<td width="38%" valign="top">
-<p><code>LIVE SIGNAL</code></p>
-<p>
-<img src="https://img.shields.io/github/followers/Zlee12?style=flat&label=followers&labelColor=0a0a0d&color=ff2a2a" alt="followers" /><br/>
-<img src="https://img.shields.io/badge/daily_driver-Arch%20%2F%20Hyprland-0a0a0d?style=flat&logo=archlinux&logoColor=ff5b5b&labelColor=0a0a0d&color=ff2a2a" alt="Arch / Hyprland" /><br/>
-<img src="https://img.shields.io/badge/mindset-offense_to_defend-0a0a0d?style=flat&labelColor=0a0a0d&color=ff2a2a" alt="offense to defend" />
-</p>
-</td>
-</tr>
-</table>
+Threat hunting · AI red-teaming · hardware I can hold — prototyping anything from mouse firmware to a ClockworkPi uConsole radio rig.
+
+**Focus** — `offense to defend` · `build-in-the-open` · `local-first`
+
+> *"It's not your right to decide whether they live or die. They deserve a chance."* — Vash the Stampede
+>
+> *"Do nothing which is of no use."* — Miyamoto Musashi, Dokkōdō
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
 ## What moves the work
 
 <p align="center">
-<img src="https://img.shields.io/badge/Threat_hunting-finding_what_hides_in_the_noise-0a0a0d?style=for-the-badge&labelColor=ff2a2a&color=0a0a0d" alt="Threat hunting" /><br/>
-<img src="https://img.shields.io/badge/AI_red--team-adversarial_LLM_security-0a0a0d?style=for-the-badge&labelColor=ff2a2a&color=0a0a0d" alt="AI red-team" /><br/>
-<img src="https://img.shields.io/badge/Hardware-prototyping,_firmware,_PCBs,_rigs-0a0a0d?style=for-the-badge&labelColor=ff2a2a&color=0a0a0d" alt="Hardware" />
+<code>threat hunting</code> — finding what hides in the noise<br/>
+<code>AI red-team</code> — adversarial LLM security<br/>
+<code>hardware</code> — prototyping, firmware, PCBs, rigs
 </p>
 
 <p align="center"><sub>Less talk, more proof.</sub></p>
@@ -52,15 +41,7 @@
 ## The stack
 
 <p align="center">
-<img src="https://img.shields.io/badge/Python-0a0a0d?style=for-the-badge&logo=python&logoColor=ff5b5b&labelColor=0a0a0d" alt="Python" />
-<img src="https://img.shields.io/badge/Go-0a0a0d?style=for-the-badge&logo=go&logoColor=ff5b5b&labelColor=0a0a0d" alt="Go" />
-<img src="https://img.shields.io/badge/Bash-0a0a0d?style=for-the-badge&logo=gnubash&logoColor=ff5b5b&labelColor=0a0a0d" alt="Bash" />
-<img src="https://img.shields.io/badge/Docker-0a0a0d?style=for-the-badge&logo=docker&logoColor=ff5b5b&labelColor=0a0a0d" alt="Docker" />
-<br/>
-<img src="https://img.shields.io/badge/KVM_/_Proxmox-0a0a0d?style=for-the-badge&logo=proxmox&logoColor=ff5b5b&labelColor=0a0a0d" alt="KVM / Proxmox" />
-<img src="https://img.shields.io/badge/Arduino-0a0a0d?style=for-the-badge&logo=arduino&logoColor=ff5b5b&labelColor=0a0a0d" alt="Arduino" />
-<img src="https://img.shields.io/badge/Arch_Linux-0a0a0d?style=for-the-badge&logo=archlinux&logoColor=ff5b5b&labelColor=0a0a0d" alt="Arch Linux" />
-<img src="https://img.shields.io/badge/Hyprland-0a0a0d?style=for-the-badge&logo=wayland&logoColor=ff5b5b&labelColor=0a0a0d" alt="Hyprland" />
+<code>Python</code> · <code>Go</code> · <code>Bash</code> · <code>Docker</code> · <code>KVM / Proxmox</code> · <code>Arduino</code> · <code>Arch Linux</code> · <code>Hyprland</code>
 </p>
 
 <p align="center"><sub>Chosen for the work, not the trend.</sub></p>
@@ -69,20 +50,11 @@
 
 ## Built, shipped, shared
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<p><strong><a href="https://github.com/Zlee12/m913ctl">m913ctl</a></strong></p>
-<p>Configure a Redragon M913 mouse on Linux — buttons, macros, DPI and lighting, written straight to onboard memory. CLI, TUI and a GTK4 app over one config. Built because the vendor only ships Windows.</p>
-<p><sub>Python · GTK4 · HID</sub></p>
-</td>
-<td width="50%" valign="top">
-<p><strong>Not everything is public</strong></p>
-<p>Security &amp; systems tooling, trading tools, multi-agent experiments — local-first, kept private for opsec. Public releases land here.</p>
-<p><sub>Open source when it's ready</sub></p>
-</td>
-</tr>
-</table>
+**[m913ctl](https://github.com/Zlee12/m913ctl)** — Configure a Redragon M913 mouse on Linux: buttons, macros, DPI and lighting, written straight to onboard memory. CLI, TUI and a GTK4 app over one config. Built because the vendor only ships Windows.
+
+`Python` · `GTK4` · `HID`
+
+**Not everything is public** — Security &amp; systems tooling, trading tools, multi-agent experiments: local-first, kept private for opsec. Public releases land here.
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
@@ -112,7 +84,6 @@
 
 <p><em>"I wanted to save them both."</em> — Vash the Stampede</p>
 
-<a href="https://github.com/Zlee12"><img src="https://img.shields.io/badge/GitHub-0a0a0d?style=for-the-badge&logo=github&logoColor=ff5b5b&labelColor=0a0a0d" alt="GitHub" /></a>
-<a href="https://buymeacoffee.com/zlee12"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-0a0a0d?style=for-the-badge&logo=buymeacoffee&logoColor=ff5b5b&labelColor=0a0a0d" alt="Buy Me a Coffee" /></a>
+<p><a href="https://github.com/Zlee12"><b>GitHub</b></a> · <a href="https://buymeacoffee.com/zlee12"><b>Buy Me a Coffee</b></a></p>
 
 </div>
