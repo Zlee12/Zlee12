@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="430" viewBox="0 0 1000 430" fill="none" role="img" aria-label="ZLEE12 — threat hunter, systems and security engineer">
   <title>Zlee12 — living identity (red)</title>
-  <desc>Animated red ASCII portrait and name. REPOS 2 · STARS 0 · CONTRIBUTIONS 12 · FOLLOWERS 2</desc>
+  <desc>Animated red ASCII portrait and name. REPOS 2 · STARS 0 · CONTRIBUTIONS 21 · FOLLOWERS 2</desc>
   <defs>
     <radialGradient id="halo" cx="30%" cy="42%" r="75%">
       <stop offset="0%" stop-color="#ff2a2a" stop-opacity="0.18"/>
@@ -315,7 +315,7 @@
 
     <g><rect x="406" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="420" y="358" font-size="20" fill="#ff5b5b" font-weight="700">2</text><text class="mono" x="420" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">REPOS</text></g>
 <g><rect x="547" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="561" y="358" font-size="20" fill="#ff5b5b" font-weight="700">0</text><text class="mono" x="561" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">STARS</text></g>
-<g><rect x="688" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="702" y="358" font-size="20" fill="#ff5b5b" font-weight="700">12</text><text class="mono" x="702" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">CONTRIB</text></g>
+<g><rect x="688" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="702" y="358" font-size="20" fill="#ff5b5b" font-weight="700">21</text><text class="mono" x="702" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">CONTRIB</text></g>
 <g><rect x="829" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="843" y="358" font-size="20" fill="#ff5b5b" font-weight="700">2</text><text class="mono" x="843" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">FOLLOWERS</text></g>
 
     <rect x="1" y="1" width="998" height="428" rx="18" fill="none" stroke="#ff2a2a" stroke-opacity="0.32" stroke-width="2"/>
