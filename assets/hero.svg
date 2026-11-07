@@ -307,8 +307,8 @@
     <!-- the way: three precepts -->
     <g class="mono" font-size="12" fill="#c4b4b8">
       <text x="406" y="272"><tspan fill="#ff4b4b">λ</tspan>  protect what lives — tools that give people agency, not take it</text>
-      <text x="406" y="294"><tspan fill="#ff4b4b">λ</tspan>  small, sharp, local-first — own the stack, trust what you can read</text>
-      <text x="406" y="316"><tspan fill="#ff4b4b">λ</tspan>  do nothing of no use — discipline over noise, the long way is the way</text>
+      <text x="406" y="294"><tspan fill="#ff4b4b">λ</tspan>  small, sharp, close to the metal — own the stack, trust what you can read</text>
+      <text x="406" y="316"><tspan fill="#ff4b4b">λ</tspan>  no wasted motion — discipline over noise, the long way is the way</text>
     </g>
 
     <g><rect x="406" y="330" width="129" height="64" rx="8" fill="#0d0609" stroke="#2a1016" stroke-width="1"/><text class="mono" x="420" y="358" font-size="20" fill="#ff5b5b" font-weight="700">2</text><text class="mono" x="420" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">REPOS</text></g>

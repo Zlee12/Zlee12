@@ -205,8 +205,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     <!-- the way: three precepts -->
     <g class="mono" font-size="12" fill="#c4b4b8">
       <text x="{RX}" y="272"><tspan fill="#ff4b4b">λ</tspan>  protect what lives — tools that give people agency, not take it</text>
-      <text x="{RX}" y="294"><tspan fill="#ff4b4b">λ</tspan>  small, sharp, local-first — own the stack, trust what you can read</text>
-      <text x="{RX}" y="316"><tspan fill="#ff4b4b">λ</tspan>  do nothing of no use — discipline over noise, the long way is the way</text>
+      <text x="{RX}" y="294"><tspan fill="#ff4b4b">λ</tspan>  small, sharp, close to the metal — own the stack, trust what you can read</text>
+      <text x="{RX}" y="316"><tspan fill="#ff4b4b">λ</tspan>  no wasted motion — discipline over noise, the long way is the way</text>
     </g>
 
     {stat_svg}

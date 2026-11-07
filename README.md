@@ -38,7 +38,7 @@ Prototyping anything I need — from mouse firmware to a ClockworkPi uConsole ra
 
 <img src="assets/m913.svg" alt="Python · GTK4 · HID" />
 
-**Not everything is public** — Security &amp; systems tooling, trading tools, multi-agent experiments: local-first, kept private for opsec. Public releases land here.
+**Not everything is public** — Security &amp; systems tooling, trading tools, multi-agent experiments: kept private for opsec. Public releases land here.
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
@@ -56,7 +56,7 @@ Prototyping anything I need — from mouse firmware to a ClockworkPi uConsole ra
 
 <sub>LOVE &amp; PEACE — WITH A THREAT MODEL</sub>
 
-### Protect what lives.
+### Let's build something that lasts.
 
 <p><em>"I wanted to save them both."</em> — Vash the Stampede</p>
 
