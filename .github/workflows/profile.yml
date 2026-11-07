@@ -1,0 +1,80 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "23 5 * * *"      # daily ~06:23 Brussels
+  workflow_dispatch:          # run on demand
+  push:
+    branches: [main]
+    paths:
+      - "assets/gen_stats.py"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch stats + contribution calendar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+        run: |
+          data=$(gh api graphql -f login="$LOGIN" -f query='
+            query($login:String!){
+              user(login:$login){
+                followers{totalCount}
+                repositories(ownerAffiliations:OWNER, privacy:PUBLIC, first:100){
+                  totalCount nodes{stargazerCount}
+                }
+                contributionsCollection{
+                  totalCommitContributions
+                  totalPullRequestContributions
+                  totalIssueContributions
+                  contributionCalendar{
+                    totalContributions
+                    weeks{ contributionDays{ contributionCount } }
+                  }
+                }
+              }
+            }')
+          u='.data.user'
+          cc="$u.contributionsCollection"
+          echo "FOLLOWERS=$(jq "$u.followers.totalCount" <<<"$data")"                         >> "$GITHUB_ENV"
+          echo "REPOS=$(jq "$u.repositories.totalCount" <<<"$data")"                           >> "$GITHUB_ENV"
+          echo "STARS=$(jq "[$u.repositories.nodes[].stargazerCount]|add // 0" <<<"$data")"    >> "$GITHUB_ENV"
+          echo "COMMITS=$(jq "$cc.totalCommitContributions" <<<"$data")"                       >> "$GITHUB_ENV"
+          echo "PRS=$(jq "$cc.totalPullRequestContributions" <<<"$data")"                      >> "$GITHUB_ENV"
+          echo "ISSUES=$(jq "$cc.totalIssueContributions" <<<"$data")"                         >> "$GITHUB_ENV"
+          echo "CONTRIB=$(jq "$cc.contributionCalendar.totalContributions" <<<"$data")"        >> "$GITHUB_ENV"
+          jq "{total: $cc.contributionCalendar.totalContributions,
+               weeks: [$cc.contributionCalendar.weeks[] | [.contributionDays[].contributionCount]]}" \
+            <<<"$data" > assets/cal.json
+          echo "wrote assets/cal.json ($(jq '.weeks|length' assets/cal.json) weeks)"
+
+      - name: Render SVGs
+        run: python assets/gen_stats.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg assets/graph.svg assets/cal.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: refresh profile stats [skip ci]"
+            git push
+          else
+            echo "stats unchanged"
+          fi

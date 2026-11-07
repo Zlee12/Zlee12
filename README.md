@@ -92,8 +92,7 @@
 ## Momentum, made visible
 
 <p align="center">
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Zlee12&show_icons=true&hide_border=true&count_private=true&title_color=ff2a2a&icon_color=ff5b5b&text_color=c9c9d1&bg_color=0a0a0d" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zlee12&layout=compact&hide_border=true&title_color=ff2a2a&text_color=c9c9d1&bg_color=0a0a0d" alt="Top languages" />
+<img src="assets/stats.svg" width="460" alt="Zlee12 GitHub stats" />
 </p>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
@@ -101,7 +100,7 @@
 ## The trail behind the work
 
 <p align="center">
-<img width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=Zlee12&bg_color=0a0a0d&color=ff5b5b&line=ff2a2a&point=ffffff&area=true&area_color=7a0f0f&title_color=ff2a2a&hide_border=true" alt="Contribution graph" />
+<img src="assets/graph.svg" width="100%" alt="Zlee12 contribution graph" />
 </p>
 
 <p align="center"><sub><em>"The quieter you become, the more you are able to hear."</em> — Ram Dass</sub></p>
