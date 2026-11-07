@@ -199,8 +199,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 
     <!-- subtitle + precept -->
     <g class="mono">
-      <text x="{RX}" y="210" font-size="15" letter-spacing="1" fill="#e7e7ea">threat hunter · systems &amp; security engineer</text>
-      <text x="{RX+412}" y="210" font-size="15" fill="#ff2a2a" class="cur">▋</text>
+      <text x="{RX}" y="210" font-size="15" letter-spacing="1" fill="#e7e7ea">threat hunter · systems &amp; security engineer<tspan dx="4" fill="#ff2a2a" class="cur">▋</tspan></text>
       <text x="{RX}" y="236" font-size="12.5" letter-spacing="1.5" fill="#8a7a7e">SECURITY · MICROCONTROLLERS · DIY &amp; HARDWARE HACKING</text>
     </g>
 

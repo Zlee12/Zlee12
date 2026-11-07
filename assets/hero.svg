@@ -301,8 +301,7 @@
 
     <!-- subtitle + precept -->
     <g class="mono">
-      <text x="406" y="210" font-size="15" letter-spacing="1" fill="#e7e7ea">threat hunter · systems &amp; security engineer</text>
-      <text x="818" y="210" font-size="15" fill="#ff2a2a" class="cur">▋</text>
+      <text x="406" y="210" font-size="15" letter-spacing="1" fill="#e7e7ea">threat hunter · systems &amp; security engineer<tspan dx="4" fill="#ff2a2a" class="cur">▋</tspan></text>
       <text x="406" y="236" font-size="12.5" letter-spacing="1.5" fill="#8a7a7e">SECURITY · MICROCONTROLLERS · DIY &amp; HARDWARE HACKING</text>
     </g>
 
