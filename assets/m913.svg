@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="31" viewBox="0 0 192 31" role="img">
+<rect x="1.0" y="2" width="68.8" height="27" rx="7" fill="#140406" stroke="#ff2a2a" stroke-opacity="0.75"/><text x="12.0" y="16.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#ff6b6b" dominant-baseline="central">Python</text>
+<rect x="77.8" y="2" width="53.2" height="27" rx="7" fill="#140406" stroke="#ff2a2a" stroke-opacity="0.75"/><text x="88.8" y="16.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#ff6b6b" dominant-baseline="central">GTK4</text>
+<rect x="139.0" y="2" width="45.4" height="27" rx="7" fill="#140406" stroke="#ff2a2a" stroke-opacity="0.75"/><text x="150.0" y="16.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#ff6b6b" dominant-baseline="central">HID</text>
+</svg>

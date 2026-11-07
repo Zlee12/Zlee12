@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="409" height="107" viewBox="0 0 409 107" role="img">
+<rect x="1.0" y="2" width="131.2" height="27" rx="7" fill="#140406" stroke="#ff2a2a" stroke-opacity="0.75"/><text x="12.0" y="16.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#ff6b6b" dominant-baseline="central">threat hunting</text>
+<text x="145.2" y="16.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#9a8a8e" dominant-baseline="central">finding what hides in the noise</text>
+<rect x="1.0" y="37" width="107.8" height="27" rx="7" fill="#140406" stroke="#ff2a2a" stroke-opacity="0.75"/><text x="12.0" y="51.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#ff6b6b" dominant-baseline="central">AI red-team</text>
+<text x="145.2" y="51.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#9a8a8e" dominant-baseline="central">adversarial LLM security</text>
+<rect x="1.0" y="72" width="84.4" height="27" rx="7" fill="#140406" stroke="#ff2a2a" stroke-opacity="0.75"/><text x="12.0" y="86.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#ff6b6b" dominant-baseline="central">hardware</text>
+<text x="145.2" y="86.0" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="13" fill="#9a8a8e" dominant-baseline="central">prototyping, firmware, PCBs, rigs</text>
+</svg>

@@ -18,7 +18,9 @@
 
 Threat hunting · AI red-teaming · hardware I can hold — prototyping anything from mouse firmware to a ClockworkPi uConsole radio rig.
 
-**Focus** — `offense to defend` · `build-in-the-open` · `local-first`
+**Focus**
+
+<img src="assets/focus.svg" alt="offense to defend · build-in-the-open · local-first" />
 
 > *"It's not your right to decide whether they live or die. They deserve a chance."* — Vash the Stampede
 >
@@ -29,9 +31,7 @@ Threat hunting · AI red-teaming · hardware I can hold — prototyping anything
 ## What moves the work
 
 <p align="center">
-<code>threat hunting</code> — finding what hides in the noise<br/>
-<code>AI red-team</code> — adversarial LLM security<br/>
-<code>hardware</code> — prototyping, firmware, PCBs, rigs
+<img src="assets/work.svg" alt="threat hunting — finding what hides in the noise; AI red-team — adversarial LLM security; hardware — prototyping, firmware, PCBs, rigs" />
 </p>
 
 <p align="center"><sub>Less talk, more proof.</sub></p>
@@ -41,7 +41,7 @@ Threat hunting · AI red-teaming · hardware I can hold — prototyping anything
 ## The stack
 
 <p align="center">
-<code>Python</code> · <code>Go</code> · <code>Bash</code> · <code>Docker</code> · <code>KVM / Proxmox</code> · <code>Arduino</code> · <code>Arch Linux</code> · <code>Hyprland</code>
+<img src="assets/stack.svg" alt="Python, Go, Bash, Docker, KVM / Proxmox, Arduino, Arch Linux, Hyprland" />
 </p>
 
 <p align="center"><sub>Chosen for the work, not the trend.</sub></p>
@@ -52,7 +52,7 @@ Threat hunting · AI red-teaming · hardware I can hold — prototyping anything
 
 **[m913ctl](https://github.com/Zlee12/m913ctl)** — Configure a Redragon M913 mouse on Linux: buttons, macros, DPI and lighting, written straight to onboard memory. CLI, TUI and a GTK4 app over one config. Built because the vendor only ships Windows.
 
-`Python` · `GTK4` · `HID`
+<img src="assets/m913.svg" alt="Python · GTK4 · HID" />
 
 **Not everything is public** — Security &amp; systems tooling, trading tools, multi-agent experiments: local-first, kept private for opsec. Public releases land here.
 
