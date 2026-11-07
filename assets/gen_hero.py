@@ -87,13 +87,16 @@ def build_portrait():
 # ---- ZLEE12 LED blocks -----------------------------------------------------
 def build_name(x0, y0, cell=13):
     grid = [r for r in pyfiglet.figlet_format("ZLEE12", font="ansi_regular").split("\n") if r.strip()][:5]
-    rects = []
+    dots = []
+    r = (cell-2)*0.40
     for j, row in enumerate(grid):
         for i, c in enumerate(row):
             if c == "█":
-                rects.append(f'<rect x="{x0+i*cell}" y="{y0+j*cell}" width="{cell-2}" height="{cell-2}" rx="2"/>')
-    cols = max(len(r) for r in grid)
-    return "\n".join(rects), cols*cell, len(grid)*cell
+                cx = x0 + i*cell + (cell-2)/2
+                cy = y0 + j*cell + (cell-2)/2
+                dots.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r:.2f}"/>')
+    cols = max(len(r_) for r_ in grid)
+    return "\n".join(dots), cols*cell, len(grid)*cell
 
 # ---- compose ---------------------------------------------------------------
 W, H = 1000, 430
@@ -118,6 +121,20 @@ for k, (lab, val) in enumerate(stats):
         f'<text class="mono" x="{cx+14}" y="358" font-size="20" fill="#ff5b5b" font-weight="700">{val}</text>'
         f'<text class="mono" x="{cx+14}" y="380" font-size="9.5" letter-spacing="1.5" fill="#7a6a6e">{lab}</text></g>')
 stat_svg = "\n".join(stat_svg)
+
+# HUD corner brackets around the portrait box (replaces the plain border)
+px0, py0, px1, py1 = 16, 52, 16 + (PANEL-32), 52 + (H-120)
+BL = 24
+brackets = f'''<g stroke="#ff2a2a" stroke-width="2.2" fill="none" stroke-opacity="0.9" stroke-linecap="round">
+  <path d="M{px0} {py0+BL} V{py0+12} Q{px0} {py0} {px0+12} {py0} H{px0+BL}"/>
+  <path d="M{px1-BL} {py0} H{px1-12} Q{px1} {py0} {px1} {py0+12} V{py0+BL}"/>
+  <path d="M{px0} {py1-BL} V{py1-12} Q{px0} {py1} {px0+12} {py1} H{px0+BL}"/>
+  <path d="M{px1-BL} {py1} H{px1-12} Q{px1} {py1} {px1} {py1-12} V{py1-BL}"/>
+</g>
+<g class="mono" fill="#ff6b6b" font-size="8" letter-spacing="2" opacity="0.8">
+  <text x="{px0+16}" y="{py1-10}">ID // VASH</text>
+  <text x="{px1-16}" y="{py0+16}" text-anchor="end">● REC</text>
+</g>'''
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" fill="none" role="img" aria-label="ZLEE12 — threat hunter, systems and security engineer">
   <title>Zlee12 — living identity (red)</title>
@@ -159,9 +176,10 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
       <path d="M420 0V430M560 0V430M700 0V430M840 0V430"/></g>
 
     <!-- portrait panel -->
-    <rect x="16" y="52" width="{PANEL-32}" height="{H-120}" rx="12" fill="#09070a" stroke="#2a1016" stroke-width="1.5"/>
+    <rect x="16" y="52" width="{PANEL-32}" height="{H-120}" rx="12" fill="#09070a"/>
     <g clip-path="url(#pan)" class="glyphs">{port}</g>
     <rect class="scan" x="16" y="52" width="{PANEL-32}" height="16" fill="#ff2a2a" fill-opacity="0.06" clip-path="url(#pan)"/>
+    {brackets}
 
     <!-- status row -->
     <g class="mono halo" font-size="11.5" letter-spacing="3" fill="#ff6b6b">
