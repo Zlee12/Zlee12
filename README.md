@@ -4,15 +4,13 @@
 
 <img src="assets/hero.svg" width="100%" alt="ZLEE12 — threat hunter, AI red team, systems and security engineer" />
 
-### Threat Hunter · AI Red Team · Systems &amp; Security Engineer
-
 </div>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
 ## Who I am
 
-Threat hunting · AI red-teaming · hardware I can hold — prototyping anything from mouse firmware to a ClockworkPi uConsole radio rig.
+Prototyping anything I need — from mouse firmware to a ClockworkPi uConsole radio rig, built to use, not to show.
 
 **Focus**
 
@@ -21,16 +19,6 @@ Threat hunting · AI red-teaming · hardware I can hold — prototyping anything
 > *"It's not your right to decide whether they live or die. They deserve a chance."* — Vash the Stampede
 >
 > *"Do nothing which is of no use."* — Miyamoto Musashi, Dokkōdō
-
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
-
-## What moves the work
-
-<p align="center">
-<img src="assets/work.svg" alt="threat hunting — finding what hides in the noise; AI red-team — adversarial LLM security; hardware — prototyping, firmware, PCBs, rigs" />
-</p>
-
-<p align="center"><sub>Less talk, more proof.</sub></p>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
@@ -51,14 +39,6 @@ Threat hunting · AI red-teaming · hardware I can hold — prototyping anything
 <img src="assets/m913.svg" alt="Python · GTK4 · HID" />
 
 **Not everything is public** — Security &amp; systems tooling, trading tools, multi-agent experiments: local-first, kept private for opsec. Public releases land here.
-
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
-
-## Momentum, made visible
-
-<p align="center">
-<img src="assets/stats.svg" width="460" alt="Zlee12 GitHub stats" />
-</p>
 
 <p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 

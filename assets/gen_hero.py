@@ -186,7 +186,6 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
     <g class="mono halo" font-size="11.5" letter-spacing="3" fill="#ff6b6b">
       <circle cx="{RX+5}" cy="40" r="4" fill="#ff2a2a"/>
       <text x="{RX+18}" y="41">LIVE // SIGNAL</text>
-      <text x="{W-26}" y="41" text-anchor="end" fill="#6a5a5e">THREAT HUNTING · HARDWARE · AI RED-TEAM</text>
     </g>
 
     <!-- name -->
@@ -199,8 +198,8 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewB
 
     <!-- subtitle + precept -->
     <g class="mono">
-      <text x="{RX}" y="210" font-size="15" letter-spacing="1" fill="#e7e7ea">threat hunter · systems &amp; security engineer<tspan dx="4" fill="#ff2a2a" class="cur">▋</tspan></text>
-      <text x="{RX}" y="236" font-size="12.5" letter-spacing="1.5" fill="#8a7a7e">SECURITY · MICROCONTROLLERS · DIY &amp; HARDWARE HACKING</text>
+      <text x="{RX}" y="210" font-size="15" letter-spacing="1" fill="#e7e7ea">Threat Hunter · AI Red Team · Microcontrollers</text>
+      <text x="{RX}" y="234" font-size="15" letter-spacing="1" fill="#e7e7ea">Systems &amp; Security Engineer · Hardware Hacking<tspan dx="4" fill="#ff2a2a" class="cur">▋</tspan></text>
     </g>
 
     <!-- the way: three precepts -->
