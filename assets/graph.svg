@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="790" height="170" viewBox="0 0 790 170" role="img" aria-label="Contribution graph">
 <rect x="1" y="1" width="788" height="168" rx="12" fill="#0a0a0d" stroke="#2a1016"/>
-<text x="24" y="34" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="14" fill="#ff2a2a">663 contributions in the last year</text>
+<text x="24" y="34" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="14" fill="#ff2a2a">664 contributions in the last year</text>
 <rect x="24" y="48" width="11" height="11" rx="2" fill="#15090c"/>
 <rect x="24" y="62" width="11" height="11" rx="2" fill="#15090c"/>
 <rect x="24" y="76" width="11" height="11" rx="2" fill="#15090c"/>
@@ -371,7 +371,7 @@
 <rect x="752" y="90" width="11" height="11" rx="2" fill="#15090c"/>
 <rect x="752" y="104" width="11" height="11" rx="2" fill="#4a0f12"/>
 <rect x="752" y="118" width="11" height="11" rx="2" fill="#d81f1f"/>
-<rect x="752" y="132" width="11" height="11" rx="2" fill="#8f1114"/>
+<rect x="752" y="132" width="11" height="11" rx="2" fill="#d81f1f"/>
 <text x="606" y="163" font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace" font-size="10" fill="#7a6a6e">less</text>
 <rect x="636" y="154" width="11" height="11" rx="2" fill="#15090c"/>
 <rect x="650" y="154" width="11" height="11" rx="2" fill="#4a0f12"/>
